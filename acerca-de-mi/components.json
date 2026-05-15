@@ -1,0 +1,285 @@
+{
+  "version": 1,
+  "domain": "pamelabetancourt.com",
+  "pageId": "acerca-de-mi",
+  "components": [
+    {
+      "id": "navAboutLink",
+      "type": "link",
+      "config": {
+        "id": "nav-about",
+        "href": "/acerca-de-mi",
+        "text": "Acerca de mi",
+        "classes": "ank-color-inherit ank-fontSize-0_95rem ank-fontWeight-700 ank-textDecoration-none"
+      }
+    },
+    {
+      "id": "pageStack",
+      "type": "container",
+      "config": {
+        "tag": "div",
+        "classes": "ank-width-100per ank-maxWidth-1180px ank-display-flex ank-flexDirection-column ank-gap-56px ank-gap-md-86px",
+        "components": [
+          "aboutHero",
+          "aboutIntroRow",
+          "aboutBody",
+          "aboutClosing"
+        ]
+      }
+    },
+    {
+      "id": "aboutHero",
+      "type": "container",
+      "config": {
+        "tag": "section",
+        "classes": "ank-display-flex ank-justifyContent-center ank-paddingTop-36px ank-paddingTop-md-72px",
+        "components": [
+          "aboutTitle"
+        ]
+      }
+    },
+    {
+      "id": "aboutTitle",
+      "type": "text",
+      "config": {
+        "tag": "h1",
+        "text": "Acerca de mi",
+        "classes": "ank-m-0 ank-color-titleColor ank-fontSize-4rem ank-fontSize-md-4_5rem ank-lineHeight-0_95 ank-fontWeight-700 ank-textAlign-center"
+      }
+    },
+    {
+      "id": "aboutIntroRow",
+      "type": "container",
+      "config": {
+        "tag": "section",
+        "classes": "ank-display-flex ank-flexDirection-column ank-flexDirection-md-row ank-alignItems-start ank-gap-32px ank-gap-md-48px ank-width-100per",
+        "components": [
+          "aboutIntroVisual",
+          "aboutIntroCopy"
+        ]
+      }
+    },
+    {
+      "id": "aboutIntroVisual",
+      "type": "container",
+      "config": {
+        "id": "about-intro-visual",
+        "tag": "div",
+        "classes": "ank-width-100per ank-width-md-300px ank-flexShrink-0 ank-overflow-hidden ank-borderRadius-18px ank-border-1px__solid__secondaryAccentColor ank-bg-bgColor",
+        "components": [
+          "aboutIntroImage"
+        ]
+      }
+    },
+    {
+      "id": "aboutIntroImage",
+      "type": "media",
+      "config": {
+        "id": "about-intro-image",
+        "tag": "image",
+        "src": "https://assets.zoolandingpage.com.mx/pamelabetancourt.com/acerca-de-mi/images/pamela-betancourt-profile.webp",
+        "alt": "Pamela Betancourt",
+        "classes": "ank-width-100per ank-display-block",
+        "width": 1440,
+        "height": 1800,
+        "decoding": "async",
+        "loading": "eager",
+        "fetchPriority": "high"
+      }
+    },
+    {
+      "id": "aboutIntroCopy",
+      "type": "container",
+      "config": {
+        "tag": "div",
+        "classes": "ank-display-flex ank-flexDirection-column ank-gap-34px ank-gap-md-54px ank-flex-1 ank-maxWidth-620px ank-paddingTop-md-70px",
+        "components": [
+          "aboutSectionTitle",
+          "aboutLead"
+        ]
+      }
+    },
+    {
+      "id": "aboutSectionTitle",
+      "type": "text",
+      "config": {
+        "tag": "h2",
+        "text": "Acerca de mí",
+        "classes": "ank-m-0 ank-color-titleColor ank-fontSize-2_45rem ank-fontWeight-500 ank-lineHeight-1_08"
+      }
+    },
+    {
+      "id": "aboutLead",
+      "type": "text",
+      "config": {
+        "tag": "p",
+        "text": "Mi trabajo se mueve entre redes sociales, sitio web y análisis, con una atención puesta en cómo se relacionan la comunicación, el recorrido del usuario y la lectura de datos.",
+        "classes": "ank-m-0 ank-color-textColor ank-fontSize-1_16rem ank-fontSize-md-1_2rem ank-fontWeight-300 ank-lineHeight-1_42 ank-maxWidth-590px"
+      }
+    },
+    {
+      "id": "aboutBody",
+      "type": "container",
+      "config": {
+        "tag": "section",
+        "classes": "ank-display-flex ank-flexDirection-column ank-gap-34px ank-gap-md-42px ank-width-100per",
+        "components": [
+          "aboutWhoSection",
+          "aboutJourneySection",
+          "aboutProjectSection"
+        ]
+      }
+    },
+    {
+      "id": "aboutWhoSection",
+      "type": "container",
+      "config": {
+        "tag": "div",
+        "classes": "ank-display-flex ank-flexDirection-column ank-gap-18px ank-maxWidth-1400px",
+        "components": [
+          "aboutWhoTitle",
+          "aboutWhoText1",
+          "aboutWhoText2"
+        ]
+      }
+    },
+    {
+      "id": "aboutWhoTitle",
+      "type": "text",
+      "config": {
+        "tag": "h3",
+        "text": "Quién soy",
+        "classes": "ank-m-0 ank-color-titleColor ank-fontSize-1_2rem ank-fontWeight-700 ank-lineHeight-1_25"
+      }
+    },
+    {
+      "id": "aboutWhoText1",
+      "type": "text",
+      "config": {
+        "tag": "p",
+        "text": "Soy profesional de marketing digital, con experiencia en redes sociales y una atención cada vez más centrada en el análisis web y la relación entre canales.",
+        "classes": "ank-m-0 ank-color-textColor ank-fontSize-1_12rem ank-fontWeight-300 ank-lineHeight-1_42 ank-maxWidth-1500px"
+      }
+    },
+    {
+      "id": "aboutWhoText2",
+      "type": "text",
+      "config": {
+        "tag": "p",
+        "text": "Me interesa trabajar lo digital no solo desde lo que se publica, sino también desde cómo se presenta un negocio, qué encuentra una persona cuando llega a un sitio y qué señales pueden ayudar a entender mejor lo que está ocurriendo.",
+        "classes": "ank-m-0 ank-color-textColor ank-fontSize-1_12rem ank-fontWeight-300 ank-lineHeight-1_42 ank-maxWidth-1500px"
+      }
+    },
+    {
+      "id": "aboutJourneySection",
+      "type": "container",
+      "config": {
+        "tag": "div",
+        "classes": "ank-display-flex ank-flexDirection-column ank-gap-18px ank-maxWidth-1400px",
+        "components": [
+          "aboutJourneyTitle",
+          "aboutJourneyText1",
+          "aboutJourneyText2"
+        ]
+      }
+    },
+    {
+      "id": "aboutJourneyTitle",
+      "type": "text",
+      "config": {
+        "tag": "h3",
+        "text": "Mi recorrido",
+        "classes": "ank-m-0 ank-color-titleColor ank-fontSize-1_2rem ank-fontWeight-700 ank-lineHeight-1_25"
+      }
+    },
+    {
+      "id": "aboutJourneyText1",
+      "type": "text",
+      "config": {
+        "tag": "p",
+        "text": "Mi recorrido profesional comenzó en redes sociales y contenido, con el tiempo fue incorporando una atención más clara al sitio web, al comportamiento del usuario y a la lectura de datos.",
+        "classes": "ank-m-0 ank-color-textColor ank-fontSize-1_12rem ank-fontWeight-300 ank-lineHeight-1_42 ank-maxWidth-1500px"
+      }
+    },
+    {
+      "id": "aboutJourneyText2",
+      "type": "text",
+      "config": {
+        "tag": "p",
+        "text": "Hoy trabajo desde esa combinación, buscando mejorar cómo se relacionan comunicación, entorno digital y recorrido de usuario.",
+        "classes": "ank-m-0 ank-color-textColor ank-fontSize-1_12rem ank-fontWeight-300 ank-lineHeight-1_42 ank-maxWidth-1500px"
+      }
+    },
+    {
+      "id": "aboutProjectSection",
+      "type": "container",
+      "config": {
+        "tag": "div",
+        "classes": "ank-display-flex ank-flexDirection-column ank-gap-18px ank-maxWidth-1400px",
+        "components": [
+          "aboutProjectTitle",
+          "aboutProjectText1",
+          "aboutProjectText2",
+          "aboutProjectText3"
+        ]
+      }
+    },
+    {
+      "id": "aboutProjectTitle",
+      "type": "text",
+      "config": {
+        "tag": "h3",
+        "text": "Cómo acompaño un proyecto",
+        "classes": "ank-m-0 ank-color-titleColor ank-fontSize-1_2rem ank-fontWeight-700 ank-lineHeight-1_25"
+      }
+    },
+    {
+      "id": "aboutProjectText1",
+      "type": "text",
+      "config": {
+        "tag": "p",
+        "text": "Aporto una mirada que ayuda a ordenar lo que a veces aparece disperso: mensajes, canales, páginas, recorridos y señales de comportamiento.",
+        "classes": "ank-m-0 ank-color-textColor ank-fontSize-1_12rem ank-fontWeight-300 ank-lineHeight-1_42 ank-maxWidth-1500px"
+      }
+    },
+    {
+      "id": "aboutProjectText2",
+      "type": "text",
+      "config": {
+        "tag": "p",
+        "text": "Más que intervenir una sola parte, busco entender qué está pidiendo atención y desde qué lugar conviene empezar.",
+        "classes": "ank-m-0 ank-color-textColor ank-fontSize-1_12rem ank-fontWeight-300 ank-lineHeight-1_42 ank-maxWidth-1500px"
+      }
+    },
+    {
+      "id": "aboutProjectText3",
+      "type": "text",
+      "config": {
+        "tag": "p",
+        "text": "Trabajo con una mirada sobria y ordenada, buscando que la comunicación, el recorrido digital y el análisis puedan leerse como partes de una misma dirección.",
+        "classes": "ank-m-0 ank-color-textColor ank-fontSize-1_12rem ank-fontWeight-300 ank-lineHeight-1_42 ank-maxWidth-1500px"
+      }
+    },
+    {
+      "id": "aboutClosing",
+      "type": "container",
+      "config": {
+        "tag": "section",
+        "classes": "ank-display-flex ank-justifyContent-center ank-paddingTop-18px ank-paddingTop-md-28px ank-color-white",
+        "components": [
+          "aboutClosingLink"
+        ]
+      }
+    },
+    {
+      "id": "aboutClosingLink",
+      "type": "link",
+      "config": {
+        "id": "about-closing-link",
+        "href": "/contact",
+        "text": "Trabajemos juntos",
+        "classes": "ank-display-flex ank-alignItems-center ank-justifyContent-center ank-width-335px ank-width-md-516px ank-height-52px ank-bg-accentColor ank-color-white ank-textDecoration-none ank-fontSize-1rem ank-fontWeight-300 ank-lineHeight-1 ank-borderRadius-8px"
+      }
+    }
+  ]
+}

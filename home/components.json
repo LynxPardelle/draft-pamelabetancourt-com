@@ -1,0 +1,497 @@
+{
+  "version": 1,
+  "domain": "pamelabetancourt.com",
+  "pageId": "home",
+  "components": [
+    {
+      "id": "navHomeLink",
+      "type": "link",
+      "config": {
+        "id": "nav-home",
+        "href": "/home",
+        "text": "Home",
+        "classes": "ank-color-inherit ank-fontSize-0_95rem ank-fontWeight-700 ank-textDecoration-none"
+      }
+    },
+    {
+      "id": "pageStack",
+      "type": "container",
+      "config": {
+        "tag": "div",
+        "classes": "ank-width-100per ank-maxWidth-1180px ank-display-flex ank-flexDirection-column ank-gap-40px ank-gap-md-52px",
+        "components": [
+          "heroSection",
+          "differenceSection",
+          "helpSection",
+          "servicesSection",
+          "closingSection"
+        ]
+      }
+    },
+    {
+      "id": "heroSection",
+      "type": "container",
+      "config": {
+        "tag": "section",
+        "id": "home",
+        "classes": "ank-display-flex ank-flexDirection-column ank-gap-6px ank-gap-md-10px ank-paddingBlock-10px ank-paddingBlock-md-24px",
+        "components": [
+          "heroTitle",
+          "heroSubtitle",
+          "heroLead",
+          "heroCtaRow"
+        ]
+      }
+    },
+    {
+      "id": "heroTitle",
+      "type": "text",
+      "config": {
+        "tag": "h1",
+        "text": "Más estrategia",
+        "classes": "ank-m-0 ank-color-titleColor ank-fontSize-3rem ank-fontSize-md-3_5rem ank-lineHeight-1 ank-fontWeight-700"
+      }
+    },
+    {
+      "id": "heroSubtitle",
+      "type": "text",
+      "config": {
+        "tag": "h2",
+        "text": "Menos improvisación",
+        "classes": "ank-m-0 ank-color-titleColor ank-fontSize-3rem ank-fontSize-md-3_5rem ank-lineHeight-1_02 ank-fontWeight-700"
+      }
+    },
+    {
+      "id": "heroLead",
+      "type": "text",
+      "config": {
+        "tag": "p",
+        "text": "Acompaño a negocios a definir su mensaje, fortalecer su presencia digital y tomar decisiones basadas en datos para mejorar su estrategia.",
+        "classes": "ank-m-0 ank-color-HASH1C1C1C ank-fontSize-1_125rem ank-fontSize-md-1_18rem ank-fontWeight-700 ank-lineHeight-1_38 ank-maxWidth-1040px"
+      }
+    },
+    {
+      "id": "heroCtaRow",
+      "type": "container",
+      "config": {
+        "tag": "div",
+        "classes": "ank-display-flex ank-justifyContent-center ank-paddingTop-40px ank-paddingTop-md-104px ank-color-white",
+        "components": [
+          "heroCta"
+        ]
+      }
+    },
+    {
+      "id": "heroCta",
+      "type": "link",
+      "config": {
+        "id": "hero-cta",
+        "href": "/contact",
+        "text": "Cuéntame sobre tu negocio",
+        "classes": "ank-display-flex ank-alignItems-center ank-justifyContent-center ank-width-245px ank-height-52px ank-bg-accentColor ank-color-white ank-textDecoration-none ank-fontSize-1rem ank-fontWeight-300 ank-lineHeight-1 ank-borderRadius-8px"
+      }
+    },
+    {
+      "id": "differenceSection",
+      "type": "container",
+      "config": {
+        "tag": "section",
+        "classes": "ank-display-flex ank-flexDirection-column ank-gap-14px ank-gap-md-20px ank-paddingTop-18px ank-paddingTop-md-52px",
+        "components": [
+          "differenceGrid"
+        ]
+      }
+    },
+    {
+      "id": "differenceGrid",
+      "type": "container",
+      "config": {
+        "tag": "div",
+        "classes": "ank-display-grid ank-gridTemplateColumns-1fr ank-gridTemplateColumns-md-repeatSD3COM1frED ank-gap-20px ank-gap-md-43px ank-alignItems-start",
+        "components": [
+          "differenceIntroColumn",
+          "differenceStrategyColumn",
+          "differenceMeasurementColumn"
+        ]
+      }
+    },
+    {
+      "id": "differenceIntroColumn",
+      "type": "container",
+      "config": {
+        "tag": "div",
+        "classes": "ank-display-flex ank-flexDirection-column ank-gap-10px",
+        "components": [
+          "differenceTitle",
+          "differenceIntroText"
+        ]
+      }
+    },
+    {
+      "id": "differenceTitle",
+      "type": "text",
+      "config": {
+        "tag": "h2",
+        "text": "¿Qué hago diferente?",
+        "classes": "ank-color-titleColor ank-fontSize-1_15rem ank-fontWeight-600 ank-lineHeight-1_35"
+      }
+    },
+    {
+      "id": "differenceIntroText",
+      "type": "text",
+      "config": {
+        "tag": "p",
+        "text": "Mi enfoque parte de integrar contenido, comunicación y datos dentro de una misma dirección estratégica.",
+        "classes": "ank-color-textColor ank-fontSize-1_167rem ank-fontWeight-300 ank-lineHeight-1_2 ank-maxWidth-md-18rem"
+      }
+    },
+    {
+      "id": "differenceStrategyColumn",
+      "type": "container",
+      "config": {
+        "tag": "div",
+        "classes": "ank-display-flex ank-flexDirection-column ank-gap-10px",
+        "components": [
+          "differenceStrategyTitle",
+          "differenceStrategyText"
+        ]
+      }
+    },
+    {
+      "id": "differenceStrategyTitle",
+      "type": "text",
+      "config": {
+        "tag": "h3",
+        "text": "Estrategia antes que improvisación",
+        "classes": "ank-color-titleColor ank-fontSize-1_15rem ank-fontWeight-600 ank-lineHeight-1_35"
+      }
+    },
+    {
+      "id": "differenceStrategyText",
+      "type": "text",
+      "config": {
+        "tag": "p",
+        "text": "Antes de pensar en publicaciones o frecuencia, me enfoco en definir qué conviene comunicar, cómo darle dirección al contenido y qué papel debe tener dentro de la presencia digital del negocio.",
+        "classes": "ank-color-textColor ank-fontSize-1_167rem ank-fontWeight-300 ank-lineHeight-1_2"
+      }
+    },
+    {
+      "id": "differenceMeasurementColumn",
+      "type": "container",
+      "config": {
+        "tag": "div",
+        "classes": "ank-display-flex ank-flexDirection-column ank-gap-10px",
+        "components": [
+          "differenceMeasurementTitle",
+          "differenceMeasurementText"
+        ]
+      }
+    },
+    {
+      "id": "differenceMeasurementTitle",
+      "type": "text",
+      "config": {
+        "tag": "h3",
+        "text": "Medición para ajustar con criterio",
+        "classes": "ank-color-titleColor ank-fontSize-1_15rem ank-fontWeight-600 ank-lineHeight-1_35"
+      }
+    },
+    {
+      "id": "differenceMeasurementText",
+      "type": "text",
+      "config": {
+        "tag": "p",
+        "text": "Medir no es complicar el proceso. Es contar con información para observar qué vale la pena mantener, qué necesita mejorar y qué ajustes pueden ayudar a tomar decisiones con más claridad.",
+        "classes": "ank-color-textColor ank-fontSize-1_167rem ank-fontWeight-300 ank-lineHeight-1_2"
+      }
+    },
+    {
+      "id": "helpSection",
+      "type": "container",
+      "config": {
+        "tag": "section",
+        "classes": "ank-display-flex ank-flexDirection-column ank-gap-12px ank-gap-md-16px ank-paddingTop-0",
+        "components": [
+          "helpTitle",
+          "helpList",
+          "helpClosing",
+          "helpClosing2"
+        ]
+      }
+    },
+    {
+      "id": "helpTitle",
+      "type": "text",
+      "config": {
+        "tag": "h2",
+        "text": "Te puedo ayudar cuando…",
+        "classes": "ank-color-titleColor ank-fontSize-1_7rem ank-fontSize-md-1_9rem ank-fontWeight-600 ank-lineHeight-1_2"
+      }
+    },
+    {
+      "id": "helpList",
+      "type": "text",
+      "config": {
+        "html": "<ul><li>no tienes claro qué conviene comunicar</li><li>tus redes sociales y tu sitio web se sienten desconectados</li><li>lo que muestras no termina de reflejar bien lo que ofreces</li><li>las personas llegan a tu sitio, pero no sabes qué pasa después</li><li>necesitas revisar qué conviene ajustar primero</li></ul>",
+        "classes": "ank-color-textColor ank-lineHeight-1_55 ank-maxWidth-50rem"
+      }
+    },
+    {
+      "id": "helpClosing",
+      "type": "text",
+      "config": {
+        "tag": "h3",
+        "text": "Hay momentos en los que la presencia digital necesita algo más que actividad: necesita criterio, claridad y una mejor conexión entre contenido, mensaje y negocio.",
+        "classes": "ank-color-secondaryTextColor ank-fontSize-1_05rem ank-fontWeight-600 ank-lineHeight-1_45 ank-maxWidth-54rem"
+      }
+    },
+    {
+      "id": "helpClosing2",
+      "type": "text",
+      "config": {
+        "tag": "h3",
+        "text": "Ahí es donde una estrategia más clara puede marcar diferencia.",
+        "classes": "ank-color-titleColor ank-fontSize-1_02rem ank-fontWeight-600 ank-lineHeight-1_45 ank-maxWidth-42rem"
+      }
+    },
+    {
+      "id": "servicesSection",
+      "type": "container",
+      "config": {
+        "tag": "section",
+        "classes": "ank-display-flex ank-flexDirection-column ank-gap-16px ank-gap-md-24px ank-paddingTop-0",
+        "components": [
+          "servicesTitle",
+          "servicesIntro",
+          "servicesGrid",
+          "servicesLinkRow"
+        ]
+      }
+    },
+    {
+      "id": "servicesTitle",
+      "type": "text",
+      "config": {
+        "tag": "h2",
+        "text": "Servicios",
+        "classes": "ank-color-titleColor ank-fontSize-2_15rem ank-fontSize-md-2_35rem ank-fontWeight-600 ank-lineHeight-1_1"
+      }
+    },
+    {
+      "id": "servicesIntro",
+      "type": "text",
+      "config": {
+        "tag": "p",
+        "text": "Estas son algunas formas en las que puedo ayudar a tu negocio:",
+        "classes": "ank-color-textColor ank-lineHeight-1_55 ank-maxWidth-30rem"
+      }
+    },
+    {
+      "id": "servicesGrid",
+      "type": "container",
+      "config": {
+        "tag": "div",
+        "classes": "ank-display-grid ank-gridTemplateColumns-1fr ank-gridTemplateColumns-md-repeatSD2COM1frED ank-gap-20px ank-gap-md-30px ank-paddingTop-0",
+        "components": [
+          "serviceCard1",
+          "serviceCard2",
+          "serviceCard3",
+          "serviceCard4"
+        ]
+      }
+    },
+    {
+      "id": "serviceCard1",
+      "type": "container",
+      "config": {
+        "tag": "div",
+        "classes": "ank-display-flex ank-flexDirection-column ank-gap-8px ank-maxWidth-31rem",
+        "components": [
+          "serviceTitle1",
+          "serviceText1"
+        ]
+      }
+    },
+    {
+      "id": "serviceTitle1",
+      "type": "text",
+      "config": {
+        "tag": "h3",
+        "text": "Diagnóstico digital",
+        "classes": "ank-color-titleColor ank-fontSize-1_12rem ank-fontWeight-600 ank-lineHeight-1_35"
+      }
+    },
+    {
+      "id": "serviceText1",
+      "type": "text",
+      "config": {
+        "tag": "p",
+        "text": "Observo cómo se están relacionando tus redes, tu sitio web y tus mensajes para detectar qué necesita atención y dónde conviene empezar.",
+        "classes": "ank-color-textColor ank-lineHeight-1_55"
+      }
+    },
+    {
+      "id": "serviceCard2",
+      "type": "container",
+      "config": {
+        "tag": "div",
+        "classes": "ank-display-flex ank-flexDirection-column ank-gap-8px ank-maxWidth-31rem",
+        "components": [
+          "serviceTitle2",
+          "serviceText2"
+        ]
+      }
+    },
+    {
+      "id": "serviceTitle2",
+      "type": "text",
+      "config": {
+        "tag": "h3",
+        "text": "Comunicación y redes sociales",
+        "classes": "ank-color-titleColor ank-fontSize-1_12rem ank-fontWeight-600 ank-lineHeight-1_35"
+      }
+    },
+    {
+      "id": "serviceText2",
+      "type": "text",
+      "config": {
+        "tag": "p",
+        "text": "Trabajo contigo qué comunicar y cómo llevarlo a redes de una forma más coherente con lo que ofreces.",
+        "classes": "ank-color-textColor ank-lineHeight-1_55"
+      }
+    },
+    {
+      "id": "serviceCard3",
+      "type": "container",
+      "config": {
+        "tag": "div",
+        "classes": "ank-display-flex ank-flexDirection-column ank-gap-8px ank-maxWidth-31rem",
+        "components": [
+          "serviceTitle3",
+          "serviceText3"
+        ]
+      }
+    },
+    {
+      "id": "serviceTitle3",
+      "type": "text",
+      "config": {
+        "tag": "h3",
+        "text": "Sitio web y recorrido",
+        "classes": "ank-color-titleColor ank-fontSize-1_12rem ank-fontWeight-600 ank-lineHeight-1_35"
+      }
+    },
+    {
+      "id": "serviceText3",
+      "type": "text",
+      "config": {
+        "tag": "p",
+        "text": "Reviso qué pasa una vez que las personas llegan a tu sitio, cómo navegan y en qué puntos se interrumpe el recorrido.",
+        "classes": "ank-color-textColor ank-lineHeight-1_55"
+      }
+    },
+    {
+      "id": "serviceCard4",
+      "type": "container",
+      "config": {
+        "tag": "div",
+        "classes": "ank-display-flex ank-flexDirection-column ank-gap-8px ank-maxWidth-31rem",
+        "components": [
+          "serviceTitle4",
+          "serviceText4"
+        ]
+      }
+    },
+    {
+      "id": "serviceTitle4",
+      "type": "text",
+      "config": {
+        "tag": "h3",
+        "text": "Análisis web",
+        "classes": "ank-color-titleColor ank-fontSize-1_12rem ank-fontWeight-600 ank-lineHeight-1_35"
+      }
+    },
+    {
+      "id": "serviceText4",
+      "type": "text",
+      "config": {
+        "tag": "p",
+        "text": "Doy lectura a la información disponible para entender mejor el comportamiento del usuario y detectar oportunidades de mejora.",
+        "classes": "ank-color-textColor ank-lineHeight-1_55"
+      }
+    },
+    {
+      "id": "servicesLinkRow",
+      "type": "container",
+      "config": {
+        "tag": "div",
+        "classes": "ank-display-flex ank-justifyContent-center ank-paddingTop-0 ank-color-white",
+        "components": [
+          "servicesLink"
+        ]
+      }
+    },
+    {
+      "id": "servicesLink",
+      "type": "link",
+      "config": {
+        "id": "services-page-link",
+        "href": "/servicios",
+        "text": "Explora mis servicios",
+        "classes": "ank-display-flex ank-alignItems-center ank-justifyContent-center ank-width-335px ank-height-52px ank-bg-accentColor ank-color-white ank-textDecoration-none ank-fontSize-1rem ank-fontWeight-300 ank-lineHeight-1 ank-borderRadius-8px"
+      }
+    },
+    {
+      "id": "closingSection",
+      "type": "container",
+      "config": {
+        "tag": "section",
+        "classes": "ank-display-flex ank-flexDirection-column ank-gap-12px ank-gap-md-16px ank-paddingTop-0 ank-paddingBottom-4px",
+        "components": [
+          "closingTitle",
+          "closingText",
+          "closingLinkRow"
+        ]
+      }
+    },
+    {
+      "id": "closingTitle",
+      "type": "text",
+      "config": {
+        "tag": "h2",
+        "text": "Trabajemos en una presencia digital más conectada",
+        "classes": "ank-color-titleColor ank-fontSize-1_8rem ank-fontSize-md-1_95rem ank-fontWeight-600 ank-lineHeight-1_2 ank-maxWidth-38rem"
+      }
+    },
+    {
+      "id": "closingText",
+      "type": "text",
+      "config": {
+        "tag": "h3",
+        "text": "Si quieres revisar cómo se relacionan tus redes, tu sitio web y lo que hoy estás comunicando, cuéntame sobre tu proyecto.",
+        "classes": "ank-color-secondaryTextColor ank-fontSize-1_02rem ank-fontWeight-600 ank-lineHeight-1_45 ank-maxWidth-52rem"
+      }
+    },
+    {
+      "id": "closingLinkRow",
+      "type": "container",
+      "config": {
+        "tag": "div",
+        "classes": "ank-display-flex ank-justifyContent-center ank-paddingTop-2px ank-color-white",
+        "components": [
+          "closingLink"
+        ]
+      }
+    },
+    {
+      "id": "closingLink",
+      "type": "link",
+      "config": {
+        "id": "closing-link",
+        "href": "/contact",
+        "text": "Hablemos de tu proyecto",
+        "classes": "ank-display-flex ank-alignItems-center ank-justifyContent-center ank-width-335px ank-height-52px ank-bg-accentColor ank-color-white ank-textDecoration-none ank-fontSize-1rem ank-fontWeight-300 ank-lineHeight-1 ank-borderRadius-8px"
+      }
+    }
+  ]
+}

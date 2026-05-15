@@ -1,0 +1,8 @@
+{
+  "version": 1,
+  "pageId": "servicios",
+  "domain": "pamelabetancourt.com",
+  "variables": {
+    "currentNavItem": "servicios"
+  }
+}

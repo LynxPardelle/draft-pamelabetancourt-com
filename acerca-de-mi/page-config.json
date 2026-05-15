@@ -1,0 +1,68 @@
+{
+  "version": 1,
+  "pageId": "acerca-de-mi",
+  "domain": "pamelabetancourt.com",
+  "rootIds": ["skipToMainLink", "siteHeader", "landingPage", "siteFooter"],
+  "modalRootIds": [],
+  "metadata": {
+    "status": "draft_experiment",
+    "source": "reference replication",
+    "versionTag": "v0.1.0"
+  },
+  "seo": {
+    "title": "Pamela Betancourt | Acerca de mi",
+    "description": "Experiencia en redes sociales, sitio web y análisis con foco en la relación entre canales.",
+    "canonical": "https://pamelabetancourt.zoolandingpage.com.mx/acerca-de-mi",
+    "keywords": {
+      "es": [
+        "Pamela Betancourt",
+        "acerca de",
+        "redes sociales",
+        "sitio web",
+        "analisis digital",
+        "experiencia profesional"
+      ],
+      "en": [
+        "Pamela Betancourt",
+        "about",
+        "social media",
+        "website strategy",
+        "digital analysis",
+        "professional experience"
+      ]
+    }
+  },
+  "structuredData": {
+    "entries": [
+      {
+        "@context": "https://schema.org",
+        "@type": "AboutPage",
+        "name": "Pamela Betancourt | Acerca de mi",
+        "description": "Experiencia en redes sociales, sitio web y análisis con foco en la relación entre canales.",
+        "url": "https://pamelabetancourt.zoolandingpage.com.mx/acerca-de-mi"
+      },
+      {
+        "@context": "https://schema.org",
+        "@type": "BreadcrumbList",
+        "itemListElement": [
+          {
+            "@type": "ListItem",
+            "position": 1,
+            "name": "Home",
+            "item": "https://pamelabetancourt.zoolandingpage.com.mx/home"
+          },
+          {
+            "@type": "ListItem",
+            "position": 2,
+            "name": "Acerca de mi",
+            "item": "https://pamelabetancourt.zoolandingpage.com.mx/acerca-de-mi"
+          }
+        ]
+      }
+    ]
+  },
+  "analytics": {
+    "sectionIds": [],
+    "scrollMilestones": []
+  }
+}

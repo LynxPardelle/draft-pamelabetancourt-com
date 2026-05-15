@@ -1,0 +1,66 @@
+{
+  "version": 1,
+  "pageId": "home",
+  "domain": "pamelabetancourt.com",
+  "rootIds": ["skipToMainLink", "siteHeader", "landingPage", "siteFooter"],
+  "modalRootIds": [],
+  "metadata": {
+    "status": "draft_experiment",
+    "source": "reference replication",
+    "versionTag": "v0.1.0"
+  },
+  "seo": {
+    "title": "Pamela Betancourt | Home",
+    "description": "Más estrategia, menos improvisación. Presencia digital, contenido y análisis con una mirada más conectada.",
+    "canonical": "https://pamelabetancourt.zoolandingpage.com.mx/home",
+    "keywords": {
+      "es": [
+        "Pamela Betancourt",
+        "estrategia digital",
+        "presencia digital",
+        "contenido digital",
+        "analisis de canales",
+        "marca personal"
+      ],
+      "en": [
+        "Pamela Betancourt",
+        "digital strategy",
+        "digital presence",
+        "content strategy",
+        "channel analysis",
+        "personal brand"
+      ]
+    }
+  },
+  "structuredData": {
+    "entries": [
+      {
+        "@context": "https://schema.org",
+        "@type": "WebPage",
+        "name": "Pamela Betancourt | Home",
+        "description": "Más estrategia, menos improvisación. Presencia digital, contenido y análisis con una mirada más conectada.",
+        "url": "https://pamelabetancourt.zoolandingpage.com.mx/home",
+        "about": {
+          "@type": "Person",
+          "name": "Pamela Betancourt"
+        }
+      },
+      {
+        "@context": "https://schema.org",
+        "@type": "BreadcrumbList",
+        "itemListElement": [
+          {
+            "@type": "ListItem",
+            "position": 1,
+            "name": "Home",
+            "item": "https://pamelabetancourt.zoolandingpage.com.mx/home"
+          }
+        ]
+      }
+    ]
+  },
+  "analytics": {
+    "sectionIds": [],
+    "scrollMilestones": []
+  }
+}

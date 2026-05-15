@@ -1,0 +1,28 @@
+{
+  "version": 1,
+  "pageId": "servicios",
+  "domain": "pamelabetancourt.com",
+  "lang": "es",
+  "dictionary": {
+    "ui": {
+      "accessibility": {
+        "analyticsConsentDialog": "Diálogo de consentimiento de analítica",
+        "dialog": "Diálogo",
+        "dialogOpened": "Diálogo abierto",
+        "dialogClosed": "Diálogo cerrado"
+      },
+      "debugPanel": {
+        "downloadDraftPayloads": "Descargar payloads del draft",
+        "writeDraftsToDisk": "Escribir drafts a disco",
+        "configIssues": "Problemas de configuración",
+        "analyticsLatest": "Analítica reciente",
+        "unknownComponentPrefix": "Componente desconocido"
+      }
+    },
+    "footer": {
+      "actions": {
+        "close": "Cerrar"
+      }
+    }
+  }
+}

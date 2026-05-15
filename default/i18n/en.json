@@ -1,0 +1,28 @@
+{
+  "version": 1,
+  "pageId": "home",
+  "domain": "pamelabetancourt.com",
+  "lang": "en",
+  "dictionary": {
+    "ui": {
+      "accessibility": {
+        "analyticsConsentDialog": "Analytics consent dialog",
+        "dialog": "Dialog",
+        "dialogOpened": "Dialog opened",
+        "dialogClosed": "Dialog closed"
+      },
+      "debugPanel": {
+        "downloadDraftPayloads": "Download draft payloads",
+        "writeDraftsToDisk": "Write drafts to disk",
+        "configIssues": "Configuration issues",
+        "analyticsLatest": "Latest analytics",
+        "unknownComponentPrefix": "Unknown component"
+      }
+    },
+    "footer": {
+      "actions": {
+        "close": "Close"
+      }
+    }
+  }
+}

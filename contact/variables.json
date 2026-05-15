@@ -1,0 +1,8 @@
+{
+  "version": 1,
+  "pageId": "contact",
+  "domain": "pamelabetancourt.com",
+  "variables": {
+    "currentNavItem": "contact"
+  }
+}

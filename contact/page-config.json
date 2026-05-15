@@ -1,0 +1,54 @@
+{
+  "version": 1,
+  "pageId": "contact",
+  "domain": "pamelabetancourt.com",
+  "rootIds": ["skipToMainLink", "siteHeader", "landingPage", "siteFooter"],
+  "modalRootIds": [],
+  "metadata": {
+    "status": "draft_experiment",
+    "source": "reference replication",
+    "versionTag": "v0.1.0"
+  },
+  "seo": {
+    "title": "Pamela Betancourt | Contáctame",
+    "description": "Contacto inicial para revisar redes sociales, sitio web, análisis y próximos pasos.",
+    "canonical": "https://pamelabetancourt.zoolandingpage.com.mx/contáctame",
+    "keywords": {
+      "es": ["contacto Pamela Betancourt", "consulta digital", "redes sociales", "analisis web", "marketing digital"],
+      "en": ["contact Pamela Betancourt", "digital consultation", "social media", "web analytics", "digital marketing"]
+    }
+  },
+  "structuredData": {
+    "entries": [
+      {
+        "@context": "https://schema.org",
+        "@type": "ContactPage",
+        "name": "Pamela Betancourt | Contáctame",
+        "description": "Contacto inicial para revisar redes sociales, sitio web, análisis y próximos pasos.",
+        "url": "https://pamelabetancourt.zoolandingpage.com.mx/contáctame"
+      },
+      {
+        "@context": "https://schema.org",
+        "@type": "BreadcrumbList",
+        "itemListElement": [
+          {
+            "@type": "ListItem",
+            "position": 1,
+            "name": "Home",
+            "item": "https://pamelabetancourt.zoolandingpage.com.mx/home"
+          },
+          {
+            "@type": "ListItem",
+            "position": 2,
+            "name": "Contáctame",
+            "item": "https://pamelabetancourt.zoolandingpage.com.mx/contáctame"
+          }
+        ]
+      }
+    ]
+  },
+  "analytics": {
+    "sectionIds": [],
+    "scrollMilestones": []
+  }
+}

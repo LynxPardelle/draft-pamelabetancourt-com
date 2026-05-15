@@ -1,0 +1,68 @@
+{
+  "version": 1,
+  "pageId": "servicios",
+  "domain": "pamelabetancourt.com",
+  "rootIds": ["skipToMainLink", "siteHeader", "landingPage", "siteFooter"],
+  "modalRootIds": [],
+  "metadata": {
+    "status": "draft_experiment",
+    "source": "reference replication",
+    "versionTag": "v0.1.0"
+  },
+  "seo": {
+    "title": "Pamela Betancourt | Servicios",
+    "description": "Servicios de diagnóstico digital, análisis web, marketing y revisión de puntos de contacto.",
+    "canonical": "https://pamelabetancourt.zoolandingpage.com.mx/servicios",
+    "keywords": {
+      "es": [
+        "servicios digitales",
+        "diagnostico digital",
+        "analisis web",
+        "marketing digital",
+        "puntos de contacto",
+        "presencia digital"
+      ],
+      "en": [
+        "digital services",
+        "digital audit",
+        "web analytics",
+        "digital marketing",
+        "customer touchpoints",
+        "digital presence"
+      ]
+    }
+  },
+  "structuredData": {
+    "entries": [
+      {
+        "@context": "https://schema.org",
+        "@type": "CollectionPage",
+        "name": "Pamela Betancourt | Servicios",
+        "description": "Servicios de diagnóstico digital, análisis web, marketing y revisión de puntos de contacto.",
+        "url": "https://pamelabetancourt.zoolandingpage.com.mx/servicios"
+      },
+      {
+        "@context": "https://schema.org",
+        "@type": "BreadcrumbList",
+        "itemListElement": [
+          {
+            "@type": "ListItem",
+            "position": 1,
+            "name": "Home",
+            "item": "https://pamelabetancourt.zoolandingpage.com.mx/home"
+          },
+          {
+            "@type": "ListItem",
+            "position": 2,
+            "name": "Servicios",
+            "item": "https://pamelabetancourt.zoolandingpage.com.mx/servicios"
+          }
+        ]
+      }
+    ]
+  },
+  "analytics": {
+    "sectionIds": [],
+    "scrollMilestones": []
+  }
+}

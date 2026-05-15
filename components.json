@@ -1,0 +1,368 @@
+{
+  "version": 1,
+  "domain": "pamelabetancourt.com",
+  "pageId": "allPages",
+  "components": [
+    {
+      "id": "skipToMainLink",
+      "type": "link",
+      "config": {
+        "id": "skip-to-main",
+        "href": "#landing-main",
+        "text": "Skip to main content",
+        "classes": "ank-display-none ank-position-absolute ank-left-16px ank-top-16px ank-zIndex-10 ank-paddingInline-12px ank-paddingBlock-8px ank-bg-secondaryBgColor ank-color-titleColor ank-textDecoration-none"
+      }
+    },
+    {
+      "id": "siteHeader",
+      "type": "container",
+      "valueInstructions": "set:config.classes,when,\"all:hostGt,runtimeState.viewport.scrollY,16\",\"ank-width-100per ank-position-sticky ank-top-0 ank-zIndex-1200 ank-display-flex ank-justifyContent-center ank-paddingInline-22px ank-paddingInline-md-36px ank-paddingBlock-10px ank-paddingBlock-md-14px ank-bg-HASH1C1C1C ank-color-white\",\"ank-width-100per ank-position-sticky ank-top-0 ank-zIndex-1200 ank-display-flex ank-justifyContent-center ank-paddingInline-22px ank-paddingInline-md-36px ank-paddingBlock-10px ank-paddingBlock-md-14px ank-bg-bgColor ank-color-textColor\"",
+      "config": {
+        "tag": "header",
+        "classes": "ank-width-100per ank-position-sticky ank-top-0 ank-zIndex-1200 ank-display-flex ank-justifyContent-center ank-paddingInline-22px ank-paddingInline-md-36px ank-paddingBlock-10px ank-paddingBlock-md-14px ank-bg-bgColor ank-color-textColor",
+        "components": [
+          "headerFrame"
+        ]
+      }
+    },
+    {
+      "id": "headerFrame",
+      "type": "container",
+      "config": {
+        "tag": "div",
+        "classes": "ank-width-100per ank-maxWidth-1180px ank-display-flex ank-flexDirection-column",
+        "components": [
+          "headerInner",
+          "headerMobileMenuMount"
+        ]
+      }
+    },
+    {
+      "id": "headerInner",
+      "type": "container",
+      "config": {
+        "tag": "div",
+        "classes": "ank-width-100per ank-display-flex ank-alignItems-center ank-justifyContent-spaceMINbetween ank-gap-12px ank-gap-md-20px",
+        "components": [
+          "brandLink",
+          "headerControls"
+        ]
+      }
+    },
+    {
+      "id": "headerControls",
+      "type": "container",
+      "config": {
+        "tag": "div",
+        "classes": "ank-display-flex ank-alignItems-center ank-justifyContent-flexEnd ank-gap-10px ank-gap-md-18px ank-marginInlineStart-auto",
+        "components": [
+          "headerNav",
+          "headerMobileActions"
+        ]
+      }
+    },
+    {
+      "id": "brandLink",
+      "type": "link",
+      "config": {
+        "id": "brand-link",
+        "href": "/home",
+        "text": "pamelabetancourt",
+        "classes": "ank-color-inherit ank-fontSize-1_65rem ank-fontWeight-400 ank-textDecoration-none ank-flexShrink-0"
+      }
+    },
+    {
+      "id": "headerNav",
+      "type": "container",
+      "config": {
+        "tag": "nav",
+        "classes": "ank-display-none ank-display-md-flex ank-flexWrap-wrap ank-justifyContent-flexEnd ank-gap-10px ank-gap-md-18px ank-alignItems-center",
+        "components": [
+          "navHomeLink",
+          "navServicesLink",
+          "navAboutLink",
+          "navContactLink"
+        ]
+      }
+    },
+    {
+      "id": "headerMobileActions",
+      "type": "container",
+      "config": {
+        "tag": "div",
+        "classes": "ank-display-flex ank-display-md-none ank-alignItems-center ank-justifyContent-flexEnd ank-flexShrink-0",
+        "components": [
+          "headerMobileNav"
+        ]
+      }
+    },
+    {
+      "id": "headerMobileMenuMount",
+      "type": "container",
+      "config": {
+        "tag": "div",
+        "id": "pamela-mobile-menu-anchor",
+        "classes": "ank-display-md-none ank-width-100per",
+        "components": []
+      }
+    },
+    {
+      "id": "headerMobileNav",
+      "type": "dropdown",
+      "eventInstructions": "navigateToUrl:event.eventData.href,event.eventData.target",
+      "valueInstructions": "set:config.dropdownConfig.selectedItemId,var,currentNavItem",
+      "config": {
+        "items": [
+          {
+            "id": "home",
+            "label": "Home",
+            "href": "/home"
+          },
+          {
+            "id": "servicios",
+            "label": "Servicios",
+            "href": "/servicios"
+          },
+          {
+            "id": "acerca-de-mi",
+            "label": "Acerca de mi",
+            "href": "/acerca-de-mi"
+          },
+          {
+            "id": "contact",
+            "label": "Contáctame",
+            "href": "/contact"
+          }
+        ],
+        "dropdownConfig": {
+          "ariaLabel": "Abrir navegación principal",
+          "buttonClasses": "ank-display-flex ank-alignItems-center ank-justifyContent-center ank-width-40px ank-height-40px ank-bg-transparent ank-border-none ank-color-inherit ank-cursor-pointer ank-p-0",
+          "itemLinkClasses": "ank-display-flex ank-alignItems-center ank-width-100per ank-paddingInline-18px ank-paddingBlock-14px ank-borderRadius-16px ank-textDecoration-none ank-color-titleColor ank-bg-secondaryBgColor",
+          "selectedItemClasses": "ank-fontWeight-700",
+          "menuContainerClasses": "ank-display-md-none ank-width-100per ank-paddingTop-10px ank-paddingBottom-6px",
+          "menuNavClasses": "ank-width-100per",
+          "menuListClasses": "ank-listStyle-none ank-padding-0 ank-margin-0 ank-display-flex ank-flexDirection-column ank-gap-10px",
+          "renderMode": "inline",
+          "menuContainerId": "pamela-mobile-navigation",
+          "inlinePortalTargetSelector": "#pamela-mobile-menu-anchor",
+          "closeOnSelect": true,
+          "selectedItemId": ""
+        },
+        "components": [
+          "mobileMenuIcon"
+        ]
+      }
+    },
+    {
+      "id": "mobileMenuIcon",
+      "type": "icon",
+      "config": {
+        "iconName": "menu",
+        "ariaLabel": "Abrir navegación principal",
+        "classes": "ank-color-inherit ank-fontSize-1_9rem"
+      }
+    },
+    {
+      "id": "navHomeLink",
+      "type": "link",
+      "config": {
+        "id": "nav-home",
+        "href": "/home",
+        "text": "Home",
+        "classes": "ank-color-inherit ank-fontSize-0_95rem ank-fontWeight-400 ank-textDecoration-none"
+      }
+    },
+    {
+      "id": "navServicesLink",
+      "type": "link",
+      "config": {
+        "id": "nav-services",
+        "href": "/servicios",
+        "text": "Servicios",
+        "classes": "ank-color-inherit ank-fontSize-0_95rem ank-fontWeight-400 ank-textDecoration-none"
+      }
+    },
+    {
+      "id": "navAboutLink",
+      "type": "link",
+      "config": {
+        "id": "nav-about",
+        "href": "/acerca-de-mi",
+        "text": "Acerca de mi",
+        "classes": "ank-color-inherit ank-fontSize-0_95rem ank-fontWeight-400 ank-textDecoration-none"
+      }
+    },
+    {
+      "id": "navContactLink",
+      "type": "link",
+      "config": {
+        "id": "nav-contact",
+        "href": "/contact",
+        "text": "Contáctame",
+        "classes": "ank-color-inherit ank-fontSize-0_95rem ank-fontWeight-400 ank-textDecoration-none"
+      }
+    },
+    {
+      "id": "landingPage",
+      "type": "container",
+      "config": {
+        "tag": "main",
+        "id": "landing-main",
+        "classes": "ank-width-100per ank-display-flex ank-justifyContent-center ank-paddingInline-24px ank-paddingInline-md-36px ank-paddingBlock-12px ank-paddingBlock-md-22px ank-bg-bgColor",
+        "components": [
+          "pageStack"
+        ]
+      }
+    },
+    {
+      "id": "siteFooter",
+      "type": "container",
+      "config": {
+        "tag": "footer",
+        "classes": "ank-width-100per ank-display-flex ank-justifyContent-center ank-paddingInline-24px ank-paddingInline-md-36px ank-paddingBottom-24px ank-bg-bgColor",
+        "components": [
+          "footerInner"
+        ]
+      }
+    },
+    {
+      "id": "footerInner",
+      "type": "container",
+      "config": {
+        "tag": "div",
+        "classes": "ank-width-100per ank-maxWidth-1180px ank-display-flex ank-flexDirection-column ank-gap-14px ank-borderTop-1px__solid__textColorOPA__0_16 ank-paddingTop-28px ank-paddingTop-md-24px ank-flexDirection-md-row ank-justifyContent-spaceMINbetween ank-alignItems-md-flexStart",
+        "components": [
+          "footerCopyGroup",
+          "footerSocialRail"
+        ]
+      }
+    },
+    {
+      "id": "footerCopyGroup",
+      "type": "container",
+      "config": {
+        "tag": "div",
+        "classes": "ank-display-flex ank-flexDirection-column ank-gap-8px ank-maxWidth-34rem",
+        "components": [
+          "footerBrand",
+          "footerTagline",
+          "footerCopyright"
+        ]
+      }
+    },
+    {
+      "id": "footerSocialRail",
+      "type": "container",
+      "config": {
+        "tag": "div",
+        "classes": "ank-display-flex ank-justifyContent-flexStart ank-paddingTop-12px ank-paddingTop-md-18px ank-marginInlineStart-md-auto",
+        "components": [
+          "footerSocial"
+        ]
+      }
+    },
+    {
+      "id": "footerBrand",
+      "type": "text",
+      "config": {
+        "tag": "strong",
+        "text": "Pamela Betancourt | Analista digital",
+        "classes": "ank-color-titleColor ank-fontSize-0_95rem ank-fontWeight-700"
+      }
+    },
+    {
+      "id": "footerTagline",
+      "type": "text",
+      "config": {
+        "tag": "p",
+        "text": "Una mirada más conectada sobre redes sociales, sitio web y análisis.",
+        "classes": "ank-color-textColor ank-fontSize-0_95rem ank-lineHeight-1_4 ank-maxWidth-420px"
+      }
+    },
+    {
+      "id": "footerCopyright",
+      "type": "text",
+      "config": {
+        "tag": "small",
+        "text": "© 2026",
+        "classes": "ank-color-textColor ank-fontSize-0_85rem"
+      }
+    },
+    {
+      "id": "footerSocial",
+      "type": "container",
+      "config": {
+        "tag": "div",
+        "classes": "ank-display-flex ank-flexDirection-column ank-gap-12px ank-alignItems-start ank-alignItems-md-flexEnd",
+        "components": [
+          "footerLinkedInLink",
+          "footerCredentialLink"
+        ]
+      }
+    },
+    {
+      "id": "footerLinkedInLink",
+      "type": "link",
+      "config": {
+        "id": "footer-linkedin",
+        "href": "https://www.linkedin.com/in/pamela-betancourt-r/",
+        "text": "",
+        "title": "LinkedIn",
+        "ariaLabel": "Abrir LinkedIn de Pamela Betancourt",
+        "target": "_blank",
+        "rel": "noopener noreferrer",
+        "components": [
+          "footerLinkedInMedia"
+        ],
+        "classes": "ank-display-flex ank-alignItems-center ank-justifyContent-center ank-textDecoration-none ank-width-32px ank-height-32px ank-bg-HASH5F6368 ank-borderRadius-50per"
+      }
+    },
+    {
+      "id": "footerLinkedInMedia",
+      "type": "media",
+      "config": {
+        "id": "footer-linkedin-image",
+        "tag": "image",
+        "src": "https://ssl.gstatic.com/atari/images/sociallinks/linkedin_white_28dp.png",
+        "alt": "LinkedIn",
+        "classes": "ank-display-block ank-width-28px ank-height-28px",
+        "width": 28,
+        "height": 28,
+        "decoding": "async",
+        "loading": "lazy"
+      }
+    },
+    {
+      "id": "footerCredentialLink",
+      "type": "link",
+      "config": {
+        "id": "footer-credential",
+        "href": "https://www.credential.net/profile/pamelabetancourt/wallet",
+        "text": "",
+        "title": "Credencial",
+        "ariaLabel": "Abrir credencial de Pamela Betancourt",
+        "target": "_blank",
+        "rel": "noopener noreferrer",
+        "components": [
+          "footerCredentialMedia"
+        ],
+        "classes": "ank-display-flex ank-alignItems-center ank-justifyContent-center ank-textDecoration-none ank-width-32px ank-height-32px ank-bg-HASH5F6368 ank-borderRadius-50per"
+      }
+    },
+    {
+      "id": "footerCredentialMedia",
+      "type": "media",
+      "config": {
+        "id": "footer-credential-image",
+        "tag": "image",
+        "src": "https://ssl.gstatic.com/atari/images/sociallinks/link_white_28dp.png",
+        "alt": "Link",
+        "classes": "ank-display-block ank-width-28px ank-height-28px",
+        "width": 28,
+        "height": 28,
+        "decoding": "async",
+        "loading": "lazy"
+      }
+    }
+  ]
+}

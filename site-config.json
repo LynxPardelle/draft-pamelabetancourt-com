@@ -1,0 +1,302 @@
+{
+  "version": 1,
+  "domain": "pamelabetancourt.com",
+  "aliases": ["pamelabetancourt.zoolandingpage.com.mx"],
+  "defaultPageId": "home",
+  "routes": [
+    {
+      "path": "/",
+      "pageId": "home",
+      "label": "Home"
+    },
+    {
+      "path": "/home",
+      "pageId": "home",
+      "label": "Home"
+    },
+    {
+      "path": "/servicios",
+      "pageId": "servicios",
+      "label": "Servicios"
+    },
+    {
+      "path": "/acerca-de-mi",
+      "pageId": "acerca-de-mi",
+      "label": "Acerca de mi"
+    },
+    {
+      "path": "/contact",
+      "pageId": "contact",
+      "label": "Contáctame"
+    },
+    {
+      "path": "/contáctame",
+      "pageId": "contact",
+      "label": "Contáctame"
+    }
+  ],
+  "site": {
+    "theme": {
+      "defaultMode": "light",
+      "palettes": {
+        "light": {
+          "bgColor": "#f4e7e1",
+          "textColor": "#5b4d47",
+          "titleColor": "#734332",
+          "linkColor": "#734332",
+          "accentColor": "#734332",
+          "secondaryBgColor": "#dfc1b4",
+          "secondaryTextColor": "#433733",
+          "secondaryTitleColor": "#734332",
+          "secondaryLinkColor": "#734332",
+          "secondaryAccentColor": "#734332",
+          "successColor": "#198754",
+          "onSuccessColor": "#052e1c",
+          "errorColor": "#dc3545",
+          "onErrorColor": "#3b0a10",
+          "warningColor": "#f59e0b",
+          "onWarningColor": "#3a2400",
+          "infoColor": "#0d6efd",
+          "onInfoColor": "#041b44"
+        },
+        "dark": {
+          "bgColor": "#1f1917",
+          "textColor": "#efe2db",
+          "titleColor": "#f6d0bf",
+          "linkColor": "#e2a27f",
+          "accentColor": "#cf7f59",
+          "secondaryBgColor": "#2b211e",
+          "secondaryTextColor": "#e8d7cf",
+          "secondaryTitleColor": "#f5c3aa",
+          "secondaryLinkColor": "#e2a27f",
+          "secondaryAccentColor": "#cf7f59",
+          "successColor": "#32d583",
+          "onSuccessColor": "#f3fff8",
+          "errorColor": "#ff6b6b",
+          "onErrorColor": "#fff5f5",
+          "warningColor": "#f5b942",
+          "onWarningColor": "#fff7e6",
+          "infoColor": "#58a6ff",
+          "onInfoColor": "#f5fbff"
+        }
+      },
+      "ui": {
+        "modalAccentColor": "secondaryAccentColor",
+        "legalModalAccentColor": "secondaryAccentColor",
+        "demoModalAccentColor": "accentColor"
+      }
+    },
+    "appIdentity": {
+      "identifier": "pamelabetancourtcom",
+      "name": "Pamela Betancourt",
+      "version": "1.0.0",
+      "description": "Personal brand multi-page landing site for Pamela Betancourt."
+    },
+    "seo": {
+      "siteName": "Pamela Betancourt",
+      "title": "Pamela Betancourt",
+      "description": "Personal brand multi-page landing site for Pamela Betancourt.",
+      "canonicalOrigin": "https://pamelabetancourt.zoolandingpage.com.mx",
+      "defaultImage": "https://assets.zoolandingpage.com.mx/pamelabetancourt.com/acerca-de-mi/images/pamela-betancourt-profile.webp",
+      "openGraph": {
+        "type": "website",
+        "site_name": "Pamela Betancourt",
+        "image": "https://assets.zoolandingpage.com.mx/pamelabetancourt.com/acerca-de-mi/images/pamela-betancourt-profile.webp"
+      },
+      "twitter": {
+        "card": "summary_large_image",
+        "image": "https://assets.zoolandingpage.com.mx/pamelabetancourt.com/acerca-de-mi/images/pamela-betancourt-profile.webp"
+      },
+      "keywords": {
+        "es": [
+          "Pamela Betancourt",
+          "estrategia digital",
+          "presencia digital",
+          "contenido digital",
+          "analisis web",
+          "redes sociales"
+        ],
+        "en": [
+          "Pamela Betancourt",
+          "digital strategy",
+          "digital presence",
+          "content strategy",
+          "web analytics",
+          "social media"
+        ]
+      },
+      "robots": "index,follow,max-image-preview:large"
+    },
+    "i18n": {
+      "defaultLanguage": "es",
+      "supportedLanguages": [
+        {
+          "code": "es",
+          "label": "ES"
+        },
+        {
+          "code": "en",
+          "label": "EN"
+        }
+      ]
+    }
+  },
+  "defaults": {
+    "ui": {
+      "loadingCurtain": {
+        "title": "Pamela Betancourt",
+        "subtitle": "Ordenando la estrategia",
+        "background": "#f4e7e1",
+        "foreground": "#734332",
+        "accent": "#734332",
+        "exitDurationMs": 420
+      },
+      "modals": {
+        "_default": {
+          "size": "sm",
+          "variant": "dialog",
+          "closeOnBackdrop": true,
+          "showCloseButton": true,
+          "showAccentBar": true,
+          "accentColor": "secondaryAccentColor",
+          "containerClasses": "ank-position-fixed ank-inset-0 ank-display-flex ank-pointerEvents-none ank-zIndex-1000",
+          "containerDialogClasses": "ank-alignItems-center ank-justifyContent-center",
+          "containerSheetClasses": "ank-alignItems-flexEnd ank-justifyContent-center",
+          "panelClasses": "modal-panel ank-pointerEvents-auto ank-display-flex ank-flexDirection-column ank-minWidth-280px ank-maxHeight-80vh ank-overflow-auto ank-p-1_25rem ank-bg-secondaryBgColor ank-color-textColor ank-border-1px ank-borderColor-border ank-boxShadow-0__0_5rem__2rem__MIN0_25rem__bgColor__OPA__0_35",
+          "panelDialogClasses": "ank-position-absolute ank-top-50per ank-left-50per ank-transform-translateSDMIN50perCOM__MIN50perED ank-borderRadius-0_75rem",
+          "panelSheetClasses": "ank-position-relative ank-width-100per ank-borderRadius-1rem__1rem__0__0 ank-pb-1_5rem",
+          "panelMotionClasses": "modal-anim-scaleIn",
+          "panelSMClasses": "ank-width-clampSD300px__COM__25vw__COM__320pxED",
+          "panelMDClasses": "ank-width-clampSD300px__COM__50vw__COM__480pxED",
+          "panelLGClasses": "ank-width-clampSD300px__COM__75vw__COM__720pxED",
+          "accentBarClasses": "ank-position-absolute ank-top-0 ank-left-0 ank-right-0 ank-height-4px ank-borderRadius-0_75rem__0_75rem__0__0",
+          "closeButtonClasses": "modal-close ank-bg-transparent ank-border-0 ank-color-inherit ank-fontSize-1_25rem ank-cursor-pointer ank-position-absolute ank-top-0_5rem ank-right-0_5rem"
+        },
+        "analytics-consent": {
+          "size": "sm",
+          "closeOnBackdrop": false,
+          "showCloseButton": false,
+          "accentColor": "secondaryAccentColor",
+          "ariaLabelKey": "ui.accessibility.analyticsConsentDialog"
+        },
+        "terms-of-service": {
+          "size": "lg",
+          "accentColor": "secondaryAccentColor",
+          "ariaLabelKey": "footer.legal.terms.title"
+        },
+        "data-use": {
+          "size": "md",
+          "accentColor": "secondaryAccentColor",
+          "ariaLabelKey": "footer.legal.data.title"
+        }
+      },
+      "toast": {
+        "hostClasses": "ank-position-fixed ank-display-flex ank-flexDirection-column ank-gap-0_5rem ank-zIndex-1000 ank-pointerEvents-none",
+        "hostTopClasses": "ank-top-1rem",
+        "hostBottomClasses": "ank-bottom-1rem",
+        "hostLeftClasses": "ank-left-1rem",
+        "hostRightClasses": "ank-right-1rem",
+        "hostCenterClasses": "ank-left-50per ank-transform-translateXSDMIN50perED",
+        "itemClasses": "ank-position-relative ank-display-flex ank-alignItems-stretch ank-gap-0_75rem ank-p-1rem ank-borderRadius-0_75rem ank-boxShadow-lg ank-border-1 ank-maxWidth-24rem ank-minWidth-20rem ank-pointerEvents-auto ank-overflow-hidden ank-backdropFilter-blurSD0_5remED ank-transformOrigin-center__bottom ank-transition-all ank-td-200ms",
+        "hoveredItemClasses": "ank-transform-scaleSD1_02ED",
+        "levelSuccessClasses": "ank-bg-successColorOPA__0_78 ank-color-onSuccessColor ank-borderColor-successColorOPA__0_34",
+        "levelErrorClasses": "ank-bg-errorColorOPA__0_78 ank-color-onErrorColor ank-borderColor-errorColorOPA__0_34",
+        "levelWarningClasses": "ank-bg-warningColorOPA__0_78 ank-color-onWarningColor ank-borderColor-warningColorOPA__0_34",
+        "levelInfoClasses": "ank-bg-infoColorOPA__0_78 ank-color-onInfoColor ank-borderColor-infoColorOPA__0_34",
+        "progressClasses": "toast-progress ank-position-absolute ank-bottom-0 ank-left-0 ank-right-0 ank-height-0_125rem ank-borderRadius-0_125rem ank-overflow-hidden",
+        "progressBarClasses": "ank-height-100per",
+        "progressBarSurfaceClasses": "ank-bg-bgColorOPA__0_58",
+        "iconSurfaceClasses": "ank-bg-bgColorOPA__0_22 ank-color-inherit",
+        "iconContainerClasses": "ank-display-flex ank-alignItems-center ank-justifyContent-center ank-flexShrink-0 ank-width-1_5rem ank-height-1_5rem ank-borderRadius-50per ank-fontSize-1rem",
+        "iconErrorClasses": "toast-icon-error-anim",
+        "iconWarningClasses": "toast-icon-warning-anim",
+        "contentClasses": "toast-content ank-display-flex ank-flexDirection-column ank-gap-0_25rem ank-flex-1 ank-minWidth-0",
+        "titleClasses": "toast-title ank-fontSize-0_875rem ank-fontWeight-600 ank-lineHeight-1_2",
+        "textClasses": "toast-text ank-fontSize-0_875rem ank-lineHeight-1_4",
+        "actionsClasses": "toast-actions ank-display-flex ank-gap-0_5rem ank-mt-0_5rem",
+        "actionButtonClasses": "ank-fontSize-0_75rem ank-px-0_75rem ank-py-0_25rem ank-borderRadius-0_375rem ank-cursor-pointer ank-fontWeight-500 ank-transition-all ank-td-200ms ank-transformHover-translateYSDMIN1pxED ank-boxShadowHover-0__4px__8px__rgbaSD0COM0COM0COM0_2ED",
+        "actionPrimaryClasses": "ank-border-0 ank-bg-bgColorOPA__0_92 ank-color-titleColor ank-bgHover-bgColor",
+        "actionSecondaryClasses": "ank-border-1px ank-borderColor-bgColorOPA__0_32 ank-bg-bgColorOPA__0_12 ank-color-inherit ank-bgHover-bgColorOPA__0_2",
+        "dismissButtonClasses": "toast-dismiss ank-display-flex ank-alignItems-center ank-justifyContent-center ank-flexShrink-0 ank-width-1_5rem ank-height-1_5rem ank-bgcl-transparent ank-border-0 ank-borderRadius-50per ank-cursor-pointer ank-fontSize-1rem ank-transition-all ank-color-textHover-primary ank-bgclHover-surface-secondary"
+      }
+    }
+  },
+  "runtime": {
+    "localStorage": {
+      "theme": "pamela-betancourt-theme",
+      "language": "pamela-betancourt-language",
+      "userPreferences": "pamela-betancourt-preferences",
+      "id": "pamela-betancourt-id",
+      "sessionId": "pamela-betancourt-session-id",
+      "allowAnalytics": "pamela-betancourt-allow-analytics",
+      "analyticsConsentSnooze": "pamela-betancourt-allow-analytics-snooze",
+      "pageViewCount": "pamela-betancourt-page-view-count"
+    },
+    "features": {
+      "debugMode": false
+    },
+    "navigation": {
+      "scrollRestoration": {
+        "mode": "top"
+      }
+    },
+    "analytics": {
+      "enabled": true,
+      "consentUI": "none",
+      "consentSnoozeSeconds": 30,
+      "track": [
+        "ip",
+        "userAgent",
+        "language",
+        "platform",
+        "vendor",
+        "cookiesEnabled",
+        "doNotTrack",
+        "screenWidth",
+        "screenHeight",
+        "colorDepth",
+        "timezone",
+        "geolocationLatitude",
+        "geolocationLongitude",
+        "geolocationAccuracy",
+        "cookies",
+        "battery",
+        "connection"
+      ],
+      "quickStats": {
+        "pageView": {
+          "event": "page_view",
+          "path": "metrics.pageViews",
+          "by": 1
+        },
+        "events": [
+          {
+            "name": "cta_click",
+            "path": "metrics.ctaClicks",
+            "by": 1
+          },
+          {
+            "name": "hero_primary_click",
+            "path": "metrics.ctaClicks",
+            "by": 1
+          },
+          {
+            "name": "hero_secondary_click",
+            "path": "metrics.ctaClicks",
+            "by": 1
+          },
+          {
+            "name": "final_cta_primary_click",
+            "path": "metrics.ctaClicks",
+            "by": 1
+          },
+          {
+            "name": "final_cta_secondary_click",
+            "path": "metrics.ctaClicks",
+            "by": 1
+          }
+        ]
+      }
+    }
+  }
+}
