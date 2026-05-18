@@ -1,0 +1,103 @@
+{
+  "version": 1,
+  "pageId": "not-found",
+  "domain": "pamelabetancourt.com",
+  "rootIds": [
+    "skipToMainLink",
+    "notFoundPage"
+  ],
+  "modalRootIds": [],
+  "metadata": {
+    "status": "local-draft",
+    "routePurpose": "not-found-recovery"
+  },
+  "seo": {
+    "title": {
+      "es": "Página no encontrada | Pamela Betancourt",
+      "en": "Page not found | Pamela Betancourt",
+      "fr": "Page introuvable | Pamela Betancourt",
+      "de": "Seite nicht gefunden | Pamela Betancourt"
+    },
+    "description": {
+      "es": "La página solicitada no está disponible en Pamela Betancourt. Vuelve al inicio o usa una ruta publicada para continuar.",
+      "en": "The requested page is not available on Pamela Betancourt. Return home or use a published route to continue.",
+      "fr": "La page demandée n'est pas disponible sur Pamela Betancourt. Revenez à l'accueil ou utilisez une route publiée pour continuer.",
+      "de": "Die angeforderte Seite ist auf Pamela Betancourt nicht verfügbar. Kehre zur Startseite zurück oder nutze eine veröffentlichte Route."
+    },
+    "canonical": "https://pamelabetancourt.zoolandingpage.com.mx/404",
+    "robots": "noindex,follow",
+    "keywords": {
+      "es": [
+        "pagina no encontrada",
+        "Pamela Betancourt"
+      ],
+      "en": [
+        "page not found",
+        "Pamela Betancourt"
+      ],
+      "fr": [
+        "page introuvable",
+        "Pamela Betancourt"
+      ],
+      "de": [
+        "seite nicht gefunden",
+        "Pamela Betancourt"
+      ]
+    },
+    "openGraph": {
+      "title": {
+        "es": "Página no encontrada | Pamela Betancourt",
+        "en": "Page not found | Pamela Betancourt",
+        "fr": "Page introuvable | Pamela Betancourt",
+        "de": "Seite nicht gefunden | Pamela Betancourt"
+      },
+      "description": {
+        "es": "La página solicitada no está disponible en Pamela Betancourt. Vuelve al inicio o usa una ruta publicada para continuar.",
+        "en": "The requested page is not available on Pamela Betancourt. Return home or use a published route to continue.",
+        "fr": "La page demandée n'est pas disponible sur Pamela Betancourt. Revenez à l'accueil ou utilisez une route publiée pour continuer.",
+        "de": "Die angeforderte Seite ist auf Pamela Betancourt nicht verfügbar. Kehre zur Startseite zurück oder nutze eine veröffentlichte Route."
+      },
+      "image": "https://assets.zoolandingpage.com.mx/pamelabetancourt.com/acerca-de-mi/images/pamela-betancourt-profile.webp",
+      "url": "https://pamelabetancourt.zoolandingpage.com.mx/404",
+      "type": "website"
+    },
+    "twitter": {
+      "title": {
+        "es": "Página no encontrada | Pamela Betancourt",
+        "en": "Page not found | Pamela Betancourt",
+        "fr": "Page introuvable | Pamela Betancourt",
+        "de": "Seite nicht gefunden | Pamela Betancourt"
+      },
+      "description": {
+        "es": "La página solicitada no está disponible en Pamela Betancourt. Vuelve al inicio o usa una ruta publicada para continuar.",
+        "en": "The requested page is not available on Pamela Betancourt. Return home or use a published route to continue.",
+        "fr": "La page demandée n'est pas disponible sur Pamela Betancourt. Revenez à l'accueil ou utilisez une route publiée pour continuer.",
+        "de": "Die angeforderte Seite ist auf Pamela Betancourt nicht verfügbar. Kehre zur Startseite zurück oder nutze eine veröffentlichte Route."
+      },
+      "image": "https://assets.zoolandingpage.com.mx/pamelabetancourt.com/acerca-de-mi/images/pamela-betancourt-profile.webp",
+      "card": "summary_large_image"
+    }
+  },
+  "structuredData": {
+    "entries": [
+      {
+        "@context": "https://schema.org",
+        "@type": "WebPage",
+        "name": "Página no encontrada | Pamela Betancourt",
+        "description": "La página solicitada no está disponible en Pamela Betancourt. Vuelve al inicio o usa una ruta publicada para continuar.",
+        "url": "https://pamelabetancourt.zoolandingpage.com.mx/404",
+        "inLanguage": "es"
+      }
+    ]
+  },
+  "analytics": {
+    "sectionIds": [
+      "home",
+      "rutas"
+    ],
+    "scrollMilestones": [
+      50,
+      100
+    ]
+  }
+}
