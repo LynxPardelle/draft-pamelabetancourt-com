@@ -35,6 +35,11 @@
       "path": "/contáctame",
       "pageId": "contact",
       "label": "Contáctame"
+    },
+    {
+      "path": "/404",
+      "pageId": "not-found",
+      "label": "Página no encontrada"
     }
   ],
   "site": {
@@ -308,5 +313,11 @@
         "test.pamelabetancourt.zoolandingpage.com.mx"
       ]
     }
+  },
+  "notFoundPageId": "not-found",
+  "sitemap": {
+    "excludePaths": [
+      "/404"
+    ]
   }
 }

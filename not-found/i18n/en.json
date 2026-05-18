@@ -1,0 +1,41 @@
+{
+  "version": 1,
+  "domain": "pamelabetancourt.com",
+  "pageId": "not-found",
+  "lang": "en",
+  "dictionary": {
+    "hero": {
+      "eyebrow": "Page not found",
+      "title": "This route is not published.",
+      "lead": "We could not find an active page for this address on Pamela Betancourt. You can return home and continue from a published route.",
+      "primaryLabel": "Back to home",
+      "secondaryLabel": "Open a published route",
+      "secondaryHref": "/home"
+    },
+    "signal": {
+      "code": "404",
+      "title": "The page is not available.",
+      "lead": "The site is still active. This response is rendered at the original URL to avoid unnecessary redirects."
+    },
+    "routes": {
+      "title": "Useful paths to continue.",
+      "lead": "These are published draft routes so navigation can recover without falling back to the home page by mistake.",
+      "items": [
+        {
+          "label": "Open Home"
+        },
+        {
+          "label": "Open Home"
+        },
+        {
+          "label": "Open Servicios"
+        }
+      ]
+    },
+    "ui": {
+      "accessibility": {
+        "skipToContent": "Skip to main content"
+      }
+    }
+  }
+}

@@ -1,0 +1,25 @@
+{
+  "version": 1,
+  "domain": "pamelabetancourt.com",
+  "pageId": "not-found",
+  "variables": {
+    "currentNavItem": "home",
+    "navigation": [],
+    "brand": {
+      "displayName": "Pamela Betancourt"
+    },
+    "i18n": {
+      "defaultLanguage": "es",
+      "supportedLanguages": [
+        {
+          "code": "es",
+          "label": "ES"
+        },
+        {
+          "code": "en",
+          "label": "EN"
+        }
+      ]
+    }
+  }
+}
