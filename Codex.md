@@ -13,4 +13,5 @@ This repository follows the secure Zoolanding draft release workflow.
 - Treat this repository as public unless verified otherwise. Before making it public, before PR, and before merge, run the hub repo public-safety audit and resolve every blocking finding.
 - Do not commit secrets, tokens, API keys, signed URLs, `.env*`, local logs, PDFs/CVs, private keys, certificates, local databases, credential JSON, local agent state, `ai_notes/`, `findings/`, or `errors-reports/`.
 - Public contact details in draft content are allowed only when they are intentionally client-facing; personal source files, CVs, private photos, identity documents, and raw research stay local-only.
+- 2026-06-07 02:47 CT: Pamela's WhatsApp target is intentionally client-facing for primary diagnosis CTAs. Keep the Google Form contact route available as a secondary path.
 - Deployment uses GitHub OIDC to assume AWS IAM roles split by repo and environment; do not add long-lived AWS access keys.

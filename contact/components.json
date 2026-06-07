@@ -21,7 +21,8 @@
         "classes": "ank-width-100per ank-maxWidth-1120px ank-display-flex ank-flexDirection-column ank-alignItems-center ank-gap-52px",
         "components": [
           "contactHero",
-          "contactFormSection"
+          "contactFormSection",
+          "contactAfterForm"
         ]
       }
     },
@@ -30,10 +31,11 @@
       "type": "container",
       "config": {
         "tag": "section",
-        "classes": "ank-width-100per ank-display-flex ank-flexDirection-column ank-alignItems-center ank-gap-38px",
+        "classes": "ank-width-100per ank-display-flex ank-flexDirection-column ank-alignItems-center ank-gap-20px ank-gap-md-26px",
         "components": [
           "contactTitle",
-          "contactLead"
+          "contactLead",
+          "contactLead2"
         ]
       }
     },
@@ -42,8 +44,8 @@
       "type": "text",
       "config": {
         "tag": "h1",
-        "text": "Contáctame",
-        "classes": "ank-color-titleColor ank-fontSize-4rem ank-fontWeight-700 ank-lineHeight-1_05 ank-textAlign-center ank-m-0 ank-width-fitContent"
+        "text": "Pide tu diagnóstico gratuito de redes",
+        "classes": "ank-color-titleColor ank-fontSize-3_2rem ank-fontSize-md-4rem ank-fontWeight-700 ank-lineHeight-1_05 ank-textAlign-center ank-m-0 ank-maxWidth-900px"
       }
     },
     {
@@ -51,8 +53,17 @@
       "type": "text",
       "config": {
         "tag": "p",
-        "text": "Puedes contarme brevemente qué está pasando hoy y qué te gustaría entender, revisar o trabajar mejor.",
+        "text": "Cuéntame brevemente sobre tu negocio y compárteme el enlace de tu Instagram o Facebook. Revisaré tu presencia en redes y te compartiré 3 oportunidades concretas de mejora.",
         "classes": "ank-color-textColor ank-fontSize-1_125rem ank-fontWeight-400 ank-lineHeight-1_55 ank-textAlign-center ank-maxWidth-1060px ank-m-0"
+      }
+    },
+    {
+      "id": "contactLead2",
+      "type": "text",
+      "config": {
+        "tag": "p",
+        "text": "Este primer diagnóstico está pensado para ayudarte a entender qué ajustar primero: claridad del perfil, contenido, mensaje o señales básicas de tus métricas.",
+        "classes": "ank-color-secondaryTextColor ank-fontSize-1_04rem ank-fontWeight-600 ank-lineHeight-1_5 ank-textAlign-center ank-maxWidth-920px ank-m-0"
       }
     },
     {
@@ -76,6 +87,26 @@
         "height": 1240,
         "loading": "lazy",
         "classes": "ank-width-100per ank-widthSEL__COM__HASHcontactFormSectionMINcontainer__genericMINembedMINframe-100per ank-maxWidth-1062px ank-border-0 ank-bg-transparent ank-d-block ank-m-0__auto"
+      }
+    },
+    {
+      "id": "contactAfterForm",
+      "type": "container",
+      "config": {
+        "tag": "section",
+        "classes": "ank-display-flex ank-flexDirection-column ank-gap-14px ank-gap-md-18px ank-paddingTop-4px ank-borderTop-1px__solid__textColorOPA__0_14 ank-paddingTop-28px ank-alignItems-center ank-width-100per",
+        "components": [
+          "contactAfterFormText"
+        ]
+      }
+    },
+    {
+      "id": "contactAfterFormText",
+      "type": "text",
+      "config": {
+        "tag": "p",
+        "text": "Después de recibir tu información, revisaré tus redes y te responderé con 3 oportunidades concretas de mejora.",
+        "classes": "ank-m-0 ank-color-secondaryTextColor ank-fontSize-1_04rem ank-fontWeight-600 ank-lineHeight-1_48 ank-textAlign-center ank-maxWidth-740px"
       }
     }
   ]
