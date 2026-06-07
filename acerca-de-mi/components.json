@@ -9,7 +9,7 @@
       "config": {
         "id": "nav-about",
         "href": "/acerca-de-mi",
-        "text": "Acerca de mi",
+        "text": "Acerca de mí",
         "classes": "ank-color-inherit ank-fontSize-0_95rem ank-fontWeight-700 ank-textDecoration-none"
       }
     },
@@ -43,7 +43,7 @@
       "type": "text",
       "config": {
         "tag": "h1",
-        "text": "Acerca de mi",
+        "text": "Acerca de mí",
         "classes": "ank-m-0 ank-color-titleColor ank-fontSize-4rem ank-fontSize-md-4_5rem ank-lineHeight-0_95 ank-fontWeight-700 ank-textAlign-center"
       }
     },
@@ -63,12 +63,12 @@
       "id": "aboutIntroVisual",
       "type": "container",
       "config": {
-        "id": "about-intro-visual",
         "tag": "div",
         "classes": "ank-width-100per ank-width-md-300px ank-flexShrink-0 ank-overflow-hidden ank-borderRadius-18px ank-border-1px__solid__secondaryAccentColor ank-bg-bgColor",
         "components": [
           "aboutIntroImage"
-        ]
+        ],
+        "id": "about-intro-visual"
       }
     },
     {
@@ -92,10 +92,11 @@
       "type": "container",
       "config": {
         "tag": "div",
-        "classes": "ank-display-flex ank-flexDirection-column ank-gap-34px ank-gap-md-54px ank-flex-1 ank-maxWidth-620px ank-paddingTop-md-70px",
+        "classes": "ank-display-flex ank-flexDirection-column ank-gap-22px ank-gap-md-28px ank-flex-1 ank-maxWidth-700px ank-paddingTop-md-64px",
         "components": [
           "aboutSectionTitle",
-          "aboutLead"
+          "aboutLead",
+          "aboutLead2"
         ]
       }
     },
@@ -113,8 +114,17 @@
       "type": "text",
       "config": {
         "tag": "p",
-        "text": "Mi trabajo se mueve entre redes sociales, sitio web y análisis, con una atención puesta en cómo se relacionan la comunicación, el recorrido del usuario y la lectura de datos.",
-        "classes": "ank-m-0 ank-color-textColor ank-fontSize-1_16rem ank-fontSize-md-1_2rem ank-fontWeight-300 ank-lineHeight-1_42 ank-maxWidth-590px"
+        "text": "Ayudo a negocios a ordenar su presencia en Instagram y Facebook con una mirada estratégica, clara y accionable.",
+        "classes": "ank-m-0 ank-color-textColor ank-fontSize-1_16rem ank-fontSize-md-1_2rem ank-fontWeight-300 ank-lineHeight-1_42 ank-maxWidth-640px"
+      }
+    },
+    {
+      "id": "aboutLead2",
+      "type": "text",
+      "config": {
+        "tag": "p",
+        "text": "Mi trabajo combina experiencia en redes sociales, comunicación digital y análisis de métricas para entender qué está funcionando, qué se puede mejorar y cómo convertirlo en un plan de contenido útil para el negocio.",
+        "classes": "ank-m-0 ank-color-textColor ank-fontSize-1_08rem ank-fontSize-md-1_12rem ank-fontWeight-300 ank-lineHeight-1_5 ank-maxWidth-700px"
       }
     },
     {
@@ -125,7 +135,7 @@
         "classes": "ank-display-flex ank-flexDirection-column ank-gap-34px ank-gap-md-42px ank-width-100per",
         "components": [
           "aboutWhoSection",
-          "aboutJourneySection",
+          "aboutApproachSection",
           "aboutProjectSection"
         ]
       }
@@ -138,8 +148,7 @@
         "classes": "ank-display-flex ank-flexDirection-column ank-gap-18px ank-maxWidth-1400px",
         "components": [
           "aboutWhoTitle",
-          "aboutWhoText1",
-          "aboutWhoText2"
+          "aboutWhoText1"
         ]
       }
     },
@@ -149,7 +158,7 @@
       "config": {
         "tag": "h3",
         "text": "Quién soy",
-        "classes": "ank-m-0 ank-color-titleColor ank-fontSize-1_2rem ank-fontWeight-700 ank-lineHeight-1_25"
+        "classes": "ank-m-0 ank-color-titleColor ank-fontSize-1_12rem ank-fontSize-md-1_2rem ank-fontWeight-700 ank-lineHeight-1_28"
       }
     },
     {
@@ -157,57 +166,38 @@
       "type": "text",
       "config": {
         "tag": "p",
-        "text": "Soy profesional de marketing digital, con experiencia en redes sociales y una atención cada vez más centrada en el análisis web y la relación entre canales.",
-        "classes": "ank-m-0 ank-color-textColor ank-fontSize-1_12rem ank-fontWeight-300 ank-lineHeight-1_42 ank-maxWidth-1500px"
+        "text": "Soy Pamela Betancourt, profesional de marketing digital con experiencia en gestión de redes sociales, contenido, atención a comunidad, campañas y análisis de métricas. He trabajado con negocios de distintos giros, como florerías, salud femenina, educación, imagen pública y dermocosmética. Esa experiencia me ha permitido entender que muchas veces el problema no es la falta de esfuerzo, sino la falta de claridad sobre qué comunicar, cómo organizarlo y cómo optimizar los contenidos.",
+        "classes": "ank-m-0 ank-color-textColor ank-fontSize-1rem ank-fontSize-md-1_06rem ank-fontWeight-300 ank-lineHeight-1_55 ank-maxWidth-1500px"
       }
     },
     {
-      "id": "aboutWhoText2",
-      "type": "text",
-      "config": {
-        "tag": "p",
-        "text": "Me interesa trabajar lo digital no solo desde lo que se publica, sino también desde cómo se presenta un negocio, qué encuentra una persona cuando llega a un sitio y qué señales pueden ayudar a entender mejor lo que está ocurriendo.",
-        "classes": "ank-m-0 ank-color-textColor ank-fontSize-1_12rem ank-fontWeight-300 ank-lineHeight-1_42 ank-maxWidth-1500px"
-      }
-    },
-    {
-      "id": "aboutJourneySection",
+      "id": "aboutApproachSection",
       "type": "container",
       "config": {
         "tag": "div",
         "classes": "ank-display-flex ank-flexDirection-column ank-gap-18px ank-maxWidth-1400px",
         "components": [
-          "aboutJourneyTitle",
-          "aboutJourneyText1",
-          "aboutJourneyText2"
+          "aboutApproachTitle",
+          "aboutApproachText1"
         ]
       }
     },
     {
-      "id": "aboutJourneyTitle",
+      "id": "aboutApproachTitle",
       "type": "text",
       "config": {
         "tag": "h3",
-        "text": "Mi recorrido",
-        "classes": "ank-m-0 ank-color-titleColor ank-fontSize-1_2rem ank-fontWeight-700 ank-lineHeight-1_25"
+        "text": "Mi enfoque",
+        "classes": "ank-m-0 ank-color-titleColor ank-fontSize-1_12rem ank-fontSize-md-1_2rem ank-fontWeight-700 ank-lineHeight-1_28"
       }
     },
     {
-      "id": "aboutJourneyText1",
+      "id": "aboutApproachText1",
       "type": "text",
       "config": {
         "tag": "p",
-        "text": "Mi recorrido profesional comenzó en redes sociales y contenido, con el tiempo fue incorporando una atención más clara al sitio web, al comportamiento del usuario y a la lectura de datos.",
-        "classes": "ank-m-0 ank-color-textColor ank-fontSize-1_12rem ank-fontWeight-300 ank-lineHeight-1_42 ank-maxWidth-1500px"
-      }
-    },
-    {
-      "id": "aboutJourneyText2",
-      "type": "text",
-      "config": {
-        "tag": "p",
-        "text": "Hoy trabajo desde esa combinación, buscando mejorar cómo se relacionan comunicación, entorno digital y recorrido de usuario.",
-        "classes": "ank-m-0 ank-color-textColor ank-fontSize-1_12rem ank-fontWeight-300 ank-lineHeight-1_42 ank-maxWidth-1500px"
+        "text": "No parto de publicar más sólo por publicar. Primero reviso cómo se presenta tu negocio, qué tan claro es tu mensaje, qué tipo de contenido estás mostrando y qué señales básicas aparecen en tus métricas. A partir de ahí, te ayudo a ordenar ideas, detectar oportunidades y construir un plan de contenido personalizado que tenga más dirección.",
+        "classes": "ank-m-0 ank-color-textColor ank-fontSize-1rem ank-fontSize-md-1_06rem ank-fontWeight-300 ank-lineHeight-1_55 ank-maxWidth-1500px"
       }
     },
     {
@@ -218,9 +208,7 @@
         "classes": "ank-display-flex ank-flexDirection-column ank-gap-18px ank-maxWidth-1400px",
         "components": [
           "aboutProjectTitle",
-          "aboutProjectText1",
-          "aboutProjectText2",
-          "aboutProjectText3"
+          "aboutProjectText1"
         ]
       }
     },
@@ -230,7 +218,7 @@
       "config": {
         "tag": "h3",
         "text": "Cómo acompaño un proyecto",
-        "classes": "ank-m-0 ank-color-titleColor ank-fontSize-1_2rem ank-fontWeight-700 ank-lineHeight-1_25"
+        "classes": "ank-m-0 ank-color-titleColor ank-fontSize-1_12rem ank-fontSize-md-1_2rem ank-fontWeight-700 ank-lineHeight-1_28"
       }
     },
     {
@@ -238,26 +226,8 @@
       "type": "text",
       "config": {
         "tag": "p",
-        "text": "Aporto una mirada que ayuda a ordenar lo que a veces aparece disperso: mensajes, canales, páginas, recorridos y señales de comportamiento.",
-        "classes": "ank-m-0 ank-color-textColor ank-fontSize-1_12rem ank-fontWeight-300 ank-lineHeight-1_42 ank-maxWidth-1500px"
-      }
-    },
-    {
-      "id": "aboutProjectText2",
-      "type": "text",
-      "config": {
-        "tag": "p",
-        "text": "Más que intervenir una sola parte, busco entender qué está pidiendo atención y desde qué lugar conviene empezar.",
-        "classes": "ank-m-0 ank-color-textColor ank-fontSize-1_12rem ank-fontWeight-300 ank-lineHeight-1_42 ank-maxWidth-1500px"
-      }
-    },
-    {
-      "id": "aboutProjectText3",
-      "type": "text",
-      "config": {
-        "tag": "p",
-        "text": "Trabajo con una mirada sobria y ordenada, buscando que la comunicación, el recorrido digital y el análisis puedan leerse como partes de una misma dirección.",
-        "classes": "ank-m-0 ank-color-textColor ank-fontSize-1_12rem ank-fontWeight-300 ank-lineHeight-1_42 ank-maxWidth-1500px"
+        "text": "Trabajo de forma ordenada y cercana: observo lo que ya existe, identifico qué necesita atención y propongo pasos concretos para mejorar. Mi objetivo es que tus redes se sientan más claras, coherentes y útiles para tu negocio, sin convertir la estrategia en algo complicado o imposible de sostener.",
+        "classes": "ank-m-0 ank-color-textColor ank-fontSize-1rem ank-fontSize-md-1_06rem ank-fontWeight-300 ank-lineHeight-1_55 ank-maxWidth-1500px"
       }
     },
     {
@@ -265,20 +235,46 @@
       "type": "container",
       "config": {
         "tag": "section",
-        "classes": "ank-display-flex ank-justifyContent-center ank-paddingTop-18px ank-paddingTop-md-28px ank-color-white",
+        "classes": "ank-display-flex ank-flexDirection-column ank-gap-14px ank-gap-md-18px ank-paddingTop-4px ank-borderTop-1px__solid__textColorOPA__0_14 ank-paddingTop-28px ank-alignItems-center",
         "components": [
+          "aboutClosingTitle",
+          "aboutClosingText",
           "aboutClosingLink"
         ]
       }
     },
     {
+      "id": "aboutClosingTitle",
+      "type": "text",
+      "config": {
+        "tag": "h2",
+        "text": "¿Quieres saber por dónde empezar?",
+        "classes": "ank-m-0 ank-color-titleColor ank-fontSize-1_8rem ank-fontSize-md-2_15rem ank-fontWeight-600 ank-lineHeight-1_15 ank-textAlign-center"
+      }
+    },
+    {
+      "id": "aboutClosingText",
+      "type": "text",
+      "config": {
+        "tag": "p",
+        "text": "Solicita tu diagnóstico gratuito y te compartiré hasta 3 oportunidades concretas de mejora para tus redes.",
+        "classes": "ank-m-0 ank-color-textColor ank-fontSize-1rem ank-fontSize-md-1_06rem ank-fontWeight-300 ank-lineHeight-1_55 ank-textAlign-center ank-maxWidth-58rem"
+      }
+    },
+    {
       "id": "aboutClosingLink",
       "type": "link",
+      "eventInstructions": "trackEvent:whatsapp_click,cta,about-closing,page,acerca-de-mi,location,closing-section,channel,whatsapp",
       "config": {
         "id": "about-closing-link",
-        "href": "/contact",
-        "text": "Trabajemos juntos",
-        "classes": "ank-display-flex ank-alignItems-center ank-justifyContent-center ank-width-335px ank-width-md-516px ank-height-52px ank-bg-accentColor ank-color-white ank-textDecoration-none ank-fontSize-1rem ank-fontWeight-300 ank-lineHeight-1 ank-borderRadius-8px"
+        "href": "https://wa.me/5215572050178?text=Hola%2C%20Pamela.%20Me%20interesa%20pedir%20el%20diagn%C3%B3stico%20gratuito%20de%20mis%20redes.",
+        "text": "Pedir diagnóstico gratuito",
+        "target": "_blank",
+        "rel": "noopener noreferrer",
+        "classes": "ank-display-flex ank-alignItems-center ank-justifyContent-center ank-width-100per ank-width-md-335px ank-minHeight-52px ank-paddingInline-20px ank-paddingBlock-12px ank-bg-accentColor ank-color-bgColor ank-textDecoration-none ank-fontSize-1rem ank-fontWeight-500 ank-lineHeight-1_2 ank-textAlign-center ank-borderRadius-8px ank-width-md-516px",
+        "styles": {
+          "color": "var(--ank-bgColor)"
+        }
       }
     }
   ]

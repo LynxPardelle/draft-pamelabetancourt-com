@@ -2,7 +2,12 @@
   "version": 1,
   "pageId": "contact",
   "domain": "pamelabetancourt.com",
-  "rootIds": ["skipToMainLink", "siteHeader", "landingPage", "siteFooter"],
+  "rootIds": [
+    "skipToMainLink",
+    "siteHeader",
+    "landingPage",
+    "siteFooter"
+  ],
   "modalRootIds": [],
   "metadata": {
     "status": "draft_experiment",
@@ -10,12 +15,26 @@
     "versionTag": "v0.1.0"
   },
   "seo": {
-    "title": "Pamela Betancourt | Contáctame",
-    "description": "Contacto inicial para revisar redes sociales, sitio web, análisis y próximos pasos.",
+    "title": "Pamela Betancourt | Diagnóstico gratuito",
+    "description": "Pide un diagnóstico gratuito de Instagram o Facebook y recibe 3 oportunidades concretas para mejorar tus redes.",
     "canonical": "https://pamelabetancourt.zoolandingpage.com.mx/contáctame",
     "keywords": {
-      "es": ["contacto Pamela Betancourt", "consulta digital", "redes sociales", "analisis web", "marketing digital"],
-      "en": ["contact Pamela Betancourt", "digital consultation", "social media", "web analytics", "digital marketing"]
+      "es": [
+        "contacto Pamela Betancourt",
+        "diagnóstico gratuito",
+        "Instagram",
+        "Facebook",
+        "redes sociales",
+        "plan de contenido"
+      ],
+      "en": [
+        "contact Pamela Betancourt",
+        "free audit",
+        "Instagram",
+        "Facebook",
+        "social media",
+        "content plan"
+      ]
     }
   },
   "structuredData": {
@@ -23,8 +42,8 @@
       {
         "@context": "https://schema.org",
         "@type": "ContactPage",
-        "name": "Pamela Betancourt | Contáctame",
-        "description": "Contacto inicial para revisar redes sociales, sitio web, análisis y próximos pasos.",
+        "name": "Pamela Betancourt | Diagnóstico gratuito",
+        "description": "Pide un diagnóstico gratuito de Instagram o Facebook y recibe 3 oportunidades concretas para mejorar tus redes.",
         "url": "https://pamelabetancourt.zoolandingpage.com.mx/contáctame"
       },
       {

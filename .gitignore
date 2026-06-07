@@ -45,6 +45,7 @@ google-credentials*.json
 *.bak
 
 # PII/source material that must be reviewed before publishing
+copy-web-pamela-betancourt.md
 *.pdf
 *.doc
 *.docx

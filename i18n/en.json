@@ -3,5 +3,11 @@
   "domain": "pamelabetancourt.com",
   "pageId": "allPages",
   "lang": "en",
-  "dictionary": {}
+  "dictionary": {
+    "ui": {
+      "contact": {
+        "whatsappMessage": "Hola, Pamela. Me interesa pedir el diagnóstico gratuito de mis redes."
+      }
+    }
+  }
 }
