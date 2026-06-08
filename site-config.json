@@ -314,8 +314,7 @@
   "environments": {
     "test": {
       "aliases": [
-        "test.pamelabetancourt.com",
-        "test.pamelabetancourt.zoolandingpage.com.mx"
+        "test.pamelabetancourt.com"
       ]
     }
   },
