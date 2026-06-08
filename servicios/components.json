@@ -18,11 +18,11 @@
       "type": "container",
       "config": {
         "tag": "div",
-        "classes": "ank-width-100per ank-maxWidth-1180px ank-display-flex ank-flexDirection-column ank-gap-64px ank-gap-md-92px",
+        "classes": "ank-width-100per ank-maxWidth-1180px ank-display-flex ank-flexDirection-column ank-gap-52px ank-gap-md-76px",
         "components": [
           "servicesHero",
-          "servicesColumns",
-          "interventionsSection",
+          "servicesListSection",
+          "notIncludedSection",
           "servicesClosing"
         ]
       }
@@ -32,12 +32,13 @@
       "type": "container",
       "config": {
         "tag": "section",
-        "id": "services",
-        "classes": "ank-display-flex ank-flexDirection-column ank-gap-72px ank-gap-md-168px ank-paddingTop-36px ank-paddingTop-md-72px",
+        "classes": "ank-display-flex ank-flexDirection-column ank-gap-22px ank-gap-md-30px ank-paddingTop-36px ank-paddingTop-md-72px",
         "components": [
           "servicesTitleRow",
-          "servicesLead"
-        ]
+          "servicesLead",
+          "servicesLead2"
+        ],
+        "id": "services"
       }
     },
     {
@@ -65,504 +66,275 @@
       "type": "text",
       "config": {
         "tag": "p",
-        "text": "No todos los proyectos necesitan el mismo punto de partida. En algunos casos hace falta revisar una parte específica; en otros, entender cómo se relacionan entre sí.",
-        "classes": "ank-m-0 ank-color-HASH4A3028 ank-fontSize-1_28rem ank-fontSize-md-1_4rem ank-fontWeight-700 ank-lineHeight-1_32 ank-maxWidth-1040px"
+        "text": "No necesitas resolver toda tu presencia digital de golpe. Podemos empezar por revisar tus redes, detectar qué está frenando la claridad de tu mensaje y convertirlo en un plan de contenido concreto para tu negocio.",
+        "classes": "ank-m-0 ank-color-HASH4A3028 ank-fontSize-1_24rem ank-fontSize-md-1_38rem ank-fontWeight-700 ank-lineHeight-1_34 ank-maxWidth-1040px"
       }
     },
     {
-      "id": "servicesColumns",
+      "id": "servicesLead2",
+      "type": "text",
+      "config": {
+        "tag": "p",
+        "text": "El objetivo es que sepas qué comunicar, cómo organizarlo y qué ajustar para que tus redes sociales trabajen en pro de tu negocio.",
+        "classes": "ank-m-0 ank-color-textColor ank-fontSize-1rem ank-fontSize-md-1_06rem ank-fontWeight-300 ank-lineHeight-1_55 ank-maxWidth-860px"
+      }
+    },
+    {
+      "id": "servicesListSection",
       "type": "container",
       "config": {
         "tag": "section",
-        "classes": "ank-display-grid ank-gridTemplateColumns-1fr ank-gridTemplateColumns-md-repeatSD3COM1frED ank-gap-44px ank-gap-md-60px ank-alignItems-start",
+        "classes": "ank-display-flex ank-flexDirection-column ank-gap-34px ank-gap-md-44px",
         "components": [
-          "socialColumn",
-          "webColumn",
-          "marketingColumn"
+          "service1",
+          "service2",
+          "service3"
         ]
       }
     },
     {
-      "id": "socialColumn",
-      "type": "container",
-      "config": {
-        "tag": "div",
-        "classes": "ank-display-flex ank-flexDirection-column ank-gap-26px",
-        "components": [
-          "socialTitle",
-          "socialDiagnostic",
-          "socialMessage",
-          "socialPlanning"
-        ]
-      }
-    },
-    {
-      "id": "socialTitle",
-      "type": "text",
-      "config": {
-        "tag": "h2",
-        "text": "Redes sociales",
-        "classes": "ank-m-0 ank-color-titleColor ank-fontSize-1_8rem ank-fontWeight-400 ank-lineHeight-1_1"
-      }
-    },
-    {
-      "id": "socialDiagnostic",
-      "type": "container",
-      "config": {
-        "tag": "div",
-        "classes": "ank-display-flex ank-flexDirection-column ank-gap-10px",
-        "components": [
-          "socialDiagnosticTitle",
-          "socialDiagnosticText"
-        ]
-      }
-    },
-    {
-      "id": "socialDiagnosticTitle",
-      "type": "text",
-      "config": {
-        "tag": "h3",
-        "text": "Diagnóstico de redes sociales",
-        "classes": "ank-m-0 ank-color-HASH1C1C1C ank-fontSize-1_12rem ank-fontWeight-700 ank-lineHeight-1_22"
-      }
-    },
-    {
-      "id": "socialDiagnosticText",
-      "type": "text",
-      "config": {
-        "tag": "p",
-        "text": "Revisión de perfiles, publicaciones y línea de comunicación actual para detectar qué necesita atención y qué conviene revisar primero.",
-        "classes": "ank-m-0 ank-color-textColor ank-fontSize-1rem ank-fontSize-md-1_02rem ank-fontWeight-300 ank-lineHeight-1_4"
-      }
-    },
-    {
-      "id": "socialMessage",
-      "type": "container",
-      "config": {
-        "tag": "div",
-        "classes": "ank-display-flex ank-flexDirection-column ank-gap-10px",
-        "components": [
-          "socialMessageTitle",
-          "socialMessageText"
-        ]
-      }
-    },
-    {
-      "id": "socialMessageTitle",
-      "type": "text",
-      "config": {
-        "tag": "h3",
-        "text": "Definición de mensaje para redes",
-        "classes": "ank-m-0 ank-color-HASH1C1C1C ank-fontSize-1_12rem ank-fontWeight-700 ank-lineHeight-1_22"
-      }
-    },
-    {
-      "id": "socialMessageText",
-      "type": "text",
-      "config": {
-        "tag": "p",
-        "text": "Trabajo sobre qué conviene comunicar en redes y cómo darle una forma más coherente con lo que ofrece tu negocio.",
-        "classes": "ank-m-0 ank-color-textColor ank-fontSize-1rem ank-fontSize-md-1_02rem ank-fontWeight-300 ank-lineHeight-1_4"
-      }
-    },
-    {
-      "id": "socialPlanning",
-      "type": "container",
-      "config": {
-        "tag": "div",
-        "classes": "ank-display-flex ank-flexDirection-column ank-gap-10px",
-        "components": [
-          "socialPlanningTitle",
-          "socialPlanningText"
-        ]
-      }
-    },
-    {
-      "id": "socialPlanningTitle",
-      "type": "text",
-      "config": {
-        "tag": "h3",
-        "text": "Planeación de contenido",
-        "classes": "ank-m-0 ank-color-HASH1C1C1C ank-fontSize-1_12rem ank-fontWeight-700 ank-lineHeight-1_22"
-      }
-    },
-    {
-      "id": "socialPlanningText",
-      "type": "text",
-      "config": {
-        "tag": "p",
-        "text": "Organización de publicaciones a partir de una lógica más clara, con relación directa con lo que ofrece tu negocio.",
-        "classes": "ank-m-0 ank-color-textColor ank-fontSize-1rem ank-fontSize-md-1_02rem ank-fontWeight-300 ank-lineHeight-1_4"
-      }
-    },
-    {
-      "id": "webColumn",
-      "type": "container",
-      "config": {
-        "tag": "div",
-        "classes": "ank-display-flex ank-flexDirection-column ank-gap-26px",
-        "components": [
-          "webTitle",
-          "webReview",
-          "webJourney",
-          "webLeakage"
-        ]
-      }
-    },
-    {
-      "id": "webTitle",
-      "type": "text",
-      "config": {
-        "tag": "h2",
-        "text": "Análisis web",
-        "classes": "ank-m-0 ank-color-titleColor ank-fontSize-1_8rem ank-fontWeight-400 ank-lineHeight-1_1"
-      }
-    },
-    {
-      "id": "webReview",
-      "type": "container",
-      "config": {
-        "tag": "div",
-        "classes": "ank-display-flex ank-flexDirection-column ank-gap-10px",
-        "components": [
-          "webReviewTitle",
-          "webReviewText"
-        ]
-      }
-    },
-    {
-      "id": "webReviewTitle",
-      "type": "text",
-      "config": {
-        "tag": "h3",
-        "text": "Revisión de sitio web",
-        "classes": "ank-m-0 ank-color-HASH1C1C1C ank-fontSize-1_12rem ank-fontWeight-700 ank-lineHeight-1_22"
-      }
-    },
-    {
-      "id": "webReviewText",
-      "type": "text",
-      "config": {
-        "tag": "p",
-        "text": "Lectura general del sitio para observar cómo se presenta la información y qué partes pueden estar dificultando el recorrido.",
-        "classes": "ank-m-0 ank-color-textColor ank-fontSize-1rem ank-fontSize-md-1_02rem ank-fontWeight-300 ank-lineHeight-1_4"
-      }
-    },
-    {
-      "id": "webJourney",
-      "type": "container",
-      "config": {
-        "tag": "div",
-        "classes": "ank-display-flex ank-flexDirection-column ank-gap-10px",
-        "components": [
-          "webJourneyTitle",
-          "webJourneyText"
-        ]
-      }
-    },
-    {
-      "id": "webJourneyTitle",
-      "type": "text",
-      "config": {
-        "tag": "h3",
-        "text": "Análisis de recorrido del usuario",
-        "classes": "ank-m-0 ank-color-HASH1C1C1C ank-fontSize-1_12rem ank-fontWeight-700 ank-lineHeight-1_22"
-      }
-    },
-    {
-      "id": "webJourneyText",
-      "type": "text",
-      "config": {
-        "tag": "p",
-        "text": "Observación de cómo navegan las personas dentro del sitio y en qué puntos se interrumpe la continuidad.",
-        "classes": "ank-m-0 ank-color-textColor ank-fontSize-1rem ank-fontSize-md-1_02rem ank-fontWeight-300 ank-lineHeight-1_4"
-      }
-    },
-    {
-      "id": "webLeakage",
-      "type": "container",
-      "config": {
-        "tag": "div",
-        "classes": "ank-display-flex ank-flexDirection-column ank-gap-10px",
-        "components": [
-          "webLeakageTitle",
-          "webLeakageText"
-        ]
-      }
-    },
-    {
-      "id": "webLeakageTitle",
-      "type": "text",
-      "config": {
-        "tag": "h3",
-        "text": "Detección de puntos de fuga",
-        "classes": "ank-m-0 ank-color-HASH1C1C1C ank-fontSize-1_12rem ank-fontWeight-700 ank-lineHeight-1_22"
-      }
-    },
-    {
-      "id": "webLeakageText",
-      "type": "text",
-      "config": {
-        "tag": "p",
-        "text": "Identificación de momentos en los que las personas abandonan el sitio o no continúan hacia otras páginas o acciones esperadas.",
-        "classes": "ank-m-0 ank-color-textColor ank-fontSize-1rem ank-fontSize-md-1_02rem ank-fontWeight-300 ank-lineHeight-1_4"
-      }
-    },
-    {
-      "id": "marketingColumn",
-      "type": "container",
-      "config": {
-        "tag": "div",
-        "classes": "ank-display-flex ank-flexDirection-column ank-gap-26px",
-        "components": [
-          "marketingTitle",
-          "marketingChannels",
-          "marketingRelationship",
-          "marketingFunnel"
-        ]
-      }
-    },
-    {
-      "id": "marketingTitle",
-      "type": "text",
-      "config": {
-        "tag": "h2",
-        "text": "Análisis de marketing",
-        "classes": "ank-m-0 ank-color-titleColor ank-fontSize-1_8rem ank-fontWeight-400 ank-lineHeight-1_1"
-      }
-    },
-    {
-      "id": "marketingChannels",
-      "type": "container",
-      "config": {
-        "tag": "div",
-        "classes": "ank-display-flex ank-flexDirection-column ank-gap-10px",
-        "components": [
-          "marketingChannelsTitle",
-          "marketingChannelsText"
-        ]
-      }
-    },
-    {
-      "id": "marketingChannelsTitle",
-      "type": "text",
-      "config": {
-        "tag": "h3",
-        "text": "Diagnóstico de canales digitales",
-        "classes": "ank-m-0 ank-color-HASH1C1C1C ank-fontSize-1_12rem ank-fontWeight-700 ank-lineHeight-1_22"
-      }
-    },
-    {
-      "id": "marketingChannelsText",
-      "type": "text",
-      "config": {
-        "tag": "p",
-        "text": "Revisión general de los canales activos del negocio para entender cómo se están relacionando entre sí y qué función está cumpliendo cada uno.",
-        "classes": "ank-m-0 ank-color-textColor ank-fontSize-1rem ank-fontSize-md-1_02rem ank-fontWeight-300 ank-lineHeight-1_4"
-      }
-    },
-    {
-      "id": "marketingRelationship",
-      "type": "container",
-      "config": {
-        "tag": "div",
-        "classes": "ank-display-flex ank-flexDirection-column ank-gap-10px",
-        "components": [
-          "marketingRelationshipTitle",
-          "marketingRelationshipText"
-        ]
-      }
-    },
-    {
-      "id": "marketingRelationshipTitle",
-      "type": "text",
-      "config": {
-        "tag": "h3",
-        "text": "Relación entre redes sociales y sitio web",
-        "classes": "ank-m-0 ank-color-HASH1C1C1C ank-fontSize-1_12rem ank-fontWeight-700 ank-lineHeight-1_22"
-      }
-    },
-    {
-      "id": "marketingRelationshipText",
-      "type": "text",
-      "config": {
-        "tag": "p",
-        "text": "Trabajo sobre la conexión entre lo que se comunica en redes y lo que las personas encuentran después dentro del sitio.",
-        "classes": "ank-m-0 ank-color-textColor ank-fontSize-1rem ank-fontSize-md-1_02rem ank-fontWeight-300 ank-lineHeight-1_4"
-      }
-    },
-    {
-      "id": "marketingFunnel",
-      "type": "container",
-      "config": {
-        "tag": "div",
-        "classes": "ank-display-flex ank-flexDirection-column ank-gap-10px",
-        "components": [
-          "marketingFunnelTitle",
-          "marketingFunnelText"
-        ]
-      }
-    },
-    {
-      "id": "marketingFunnelTitle",
-      "type": "text",
-      "config": {
-        "tag": "h3",
-        "text": "Análisis inicial de embudo",
-        "classes": "ank-m-0 ank-color-HASH1C1C1C ank-fontSize-1_12rem ank-fontWeight-700 ank-lineHeight-1_22"
-      }
-    },
-    {
-      "id": "marketingFunnelText",
-      "type": "text",
-      "config": {
-        "tag": "p",
-        "text": "Observación del recorrido desde el primer contacto hasta acciones como visitar una página clave, avanzar dentro del sitio o llegar a contacto.",
-        "classes": "ank-m-0 ank-color-textColor ank-fontSize-1rem ank-fontSize-md-1_02rem ank-fontWeight-300 ank-lineHeight-1_4"
-      }
-    },
-    {
-      "id": "interventionsSection",
+      "id": "service1",
       "type": "container",
       "config": {
         "tag": "section",
-        "classes": "ank-display-flex ank-flexDirection-column ank-gap-26px ank-gap-md-34px ank-paddingTop-6px ank-paddingTop-md-12px",
+        "classes": "ank-display-flex ank-flexDirection-column ank-gap-14px ank-gap-md-18px ank-paddingTop-4px ank-borderTop-1px__solid__textColorOPA__0_14 ank-paddingTop-28px",
         "components": [
-          "interventionsTitle",
-          "interventionCta",
-          "interventionLandings",
-          "interventionMetrics",
-          "interventionConsistency"
+          "service1Title",
+          "service1Text",
+          "service1Text2",
+          "service1IncludesTitle",
+          "service1Includes",
+          "service1CtaRow"
         ]
       }
     },
     {
-      "id": "interventionsTitle",
+      "id": "service1Title",
       "type": "text",
       "config": {
         "tag": "h2",
-        "text": "Intervenciones puntuales",
-        "classes": "ank-m-0 ank-color-titleColor ank-fontSize-2rem ank-fontWeight-400 ank-lineHeight-1_1"
+        "text": "Diagnóstico estratégico gratuito de redes",
+        "classes": "ank-m-0 ank-color-titleColor ank-fontSize-1_8rem ank-fontSize-md-2_15rem ank-fontWeight-600 ank-lineHeight-1_15"
       }
     },
     {
-      "id": "interventionCta",
+      "id": "service1Text",
+      "type": "text",
+      "config": {
+        "tag": "p",
+        "text": "Reviso tu Instagram y/o Facebook para identificar 3 oportunidades concretas de mejora en tu perfil, tu contenido y tus métricas básicas.",
+        "classes": "ank-m-0 ank-color-textColor ank-fontSize-1rem ank-fontSize-md-1_06rem ank-fontWeight-300 ank-lineHeight-1_55 ank-maxWidth-62rem"
+      }
+    },
+    {
+      "id": "service1Text2",
+      "type": "text",
+      "config": {
+        "tag": "p",
+        "text": "Este diagnóstico te ayuda a entender qué ajustar primero si tus redes se sienten desordenadas, poco claras o desconectadas del objetivo de tu negocio.",
+        "classes": "ank-m-0 ank-color-secondaryTextColor ank-fontSize-1_04rem ank-fontWeight-600 ank-lineHeight-1_48 ank-maxWidth-62rem"
+      }
+    },
+    {
+      "id": "service1IncludesTitle",
+      "type": "text",
+      "config": {
+        "tag": "h3",
+        "text": "Incluye:",
+        "classes": "ank-m-0 ank-color-titleColor ank-fontSize-1_12rem ank-fontSize-md-1_2rem ank-fontWeight-700 ank-lineHeight-1_28"
+      }
+    },
+    {
+      "id": "service1Includes",
+      "type": "text",
+      "config": {
+        "html": "<ul><li>Revisión general de perfil, bio, enlaces y llamados a la acción.</li><li>Análisis de publicaciones recientes y línea de comunicación.</li><li>Lectura básica de señales como alcance, interacción o tipo de contenido con mejor respuesta, si la información está disponible.</li><li>1 a 3 oportunidades concretas de mejora que puedes empezar a accionar en el momento.</li></ul>",
+        "classes": "ank-color-textColor ank-fontSize-1rem ank-fontSize-md-1_04rem ank-fontWeight-300 ank-lineHeight-1_6 ank-maxWidth-56rem"
+      }
+    },
+    {
+      "id": "service1CtaRow",
       "type": "container",
       "config": {
         "tag": "div",
-        "classes": "ank-display-flex ank-flexDirection-column ank-gap-12px",
+        "classes": "ank-display-flex ank-justifyContent-center ank-paddingTop-2px ank-color-white",
         "components": [
-          "interventionCtaTitle",
-          "interventionCtaText"
+          "service1Cta"
         ]
       }
     },
     {
-      "id": "interventionCtaTitle",
-      "type": "text",
+      "id": "service1Cta",
+      "type": "link",
+      "eventInstructions": "trackEvent:whatsapp_click,cta,services-diagnostic,page,servicios,location,service-diagnostic,channel,whatsapp",
       "config": {
-        "tag": "h3",
-        "text": "Revisión de llamados a la acción",
-        "classes": "ank-m-0 ank-color-HASH1C1C1C ank-fontSize-1_18rem ank-fontWeight-700 ank-lineHeight-1_22"
+        "id": "service-diagnostic-cta",
+        "href": "https://wa.me/5215572050178?text=Hola%2C%20Pamela.%20Me%20interesa%20pedir%20el%20diagn%C3%B3stico%20gratuito%20de%20mis%20redes.",
+        "text": "Pedir diagnóstico gratuito",
+        "target": "_blank",
+        "rel": "noopener noreferrer",
+        "classes": "ank-display-flex ank-alignItems-center ank-justifyContent-center ank-width-100per ank-width-md-335px ank-minHeight-52px ank-paddingInline-20px ank-paddingBlock-12px ank-bg-accentColor ank-color-bgColor ank-textDecoration-none ank-fontSize-1rem ank-fontWeight-500 ank-lineHeight-1_2 ank-textAlign-center ank-borderRadius-8px",
+        "styles": {
+          "color": "var(--ank-bgColor)"
+        }
       }
     },
     {
-      "id": "interventionCtaText",
-      "type": "text",
-      "config": {
-        "tag": "p",
-        "text": "Análisis de botones, enlaces y puntos de contacto para detectar si acompañan bien el recorrido.",
-        "classes": "ank-m-0 ank-color-textColor ank-fontSize-1_02rem ank-fontSize-md-1_06rem ank-fontWeight-300 ank-lineHeight-1_4 ank-maxWidth-1180px"
-      }
-    },
-    {
-      "id": "interventionLandings",
+      "id": "service2",
       "type": "container",
       "config": {
-        "tag": "div",
-        "classes": "ank-display-flex ank-flexDirection-column ank-gap-12px",
+        "tag": "section",
+        "classes": "ank-display-flex ank-flexDirection-column ank-gap-14px ank-gap-md-18px ank-paddingTop-4px ank-borderTop-1px__solid__textColorOPA__0_14 ank-paddingTop-28px",
         "components": [
-          "interventionLandingsTitle",
-          "interventionLandingsText"
+          "service2Title",
+          "service2Text",
+          "service2Text2",
+          "service2IncludesTitle",
+          "service2Includes"
         ]
       }
     },
     {
-      "id": "interventionLandingsTitle",
+      "id": "service2Title",
       "type": "text",
       "config": {
-        "tag": "h3",
-        "text": "Revisión de landing pages",
-        "classes": "ank-m-0 ank-color-HASH1C1C1C ank-fontSize-1_18rem ank-fontWeight-700 ank-lineHeight-1_22"
+        "tag": "h2",
+        "text": "Plan mensual de contenido personalizado",
+        "classes": "ank-m-0 ank-color-titleColor ank-fontSize-1_8rem ank-fontSize-md-2_15rem ank-fontWeight-600 ank-lineHeight-1_15"
       }
     },
     {
-      "id": "interventionLandingsText",
+      "id": "service2Text",
       "type": "text",
       "config": {
         "tag": "p",
-        "text": "Lectura puntual de páginas específicas para observar su estructura, claridad y continuidad.",
-        "classes": "ank-m-0 ank-color-textColor ank-fontSize-1_02rem ank-fontSize-md-1_06rem ank-fontWeight-300 ank-lineHeight-1_4 ank-maxWidth-1180px"
+        "text": "A partir del diagnóstico, preparo un plan de contenido para un mes, alineado a tu negocio, tus objetivos y tu forma de comunicar.",
+        "classes": "ank-m-0 ank-color-textColor ank-fontSize-1rem ank-fontSize-md-1_06rem ank-fontWeight-300 ank-lineHeight-1_55 ank-maxWidth-62rem"
       }
     },
     {
-      "id": "interventionMetrics",
+      "id": "service2Text2",
+      "type": "text",
+      "config": {
+        "tag": "p",
+        "text": "Este servicio es ideal si publicas sin dirección clara, te cuesta decidir qué decir cada semana o quieres que tus redes comuniquen mejor el valor de lo que haces.",
+        "classes": "ank-m-0 ank-color-secondaryTextColor ank-fontSize-1_04rem ank-fontWeight-600 ank-lineHeight-1_48 ank-maxWidth-62rem"
+      }
+    },
+    {
+      "id": "service2IncludesTitle",
+      "type": "text",
+      "config": {
+        "tag": "h3",
+        "text": "Incluye:",
+        "classes": "ank-m-0 ank-color-titleColor ank-fontSize-1_12rem ank-fontSize-md-1_2rem ank-fontWeight-700 ank-lineHeight-1_28"
+      }
+    },
+    {
+      "id": "service2Includes",
+      "type": "text",
+      "config": {
+        "html": "<ul><li>Definición de pilares de contenido para tu negocio.</li><li>Definición de temas principales para un mes.</li><li>Calendario de contenido.</li><li>Ideas de publicaciones organizadas por objetivo, formato y contenido, aproximadamente 15 a 20 publicaciones.</li><li>Copies listos para usar en cada publicación.</li><li>Curaduría de publicaciones previa a su publicación.</li><li>Recomendaciones para mantener una comunicación más clara y constante.</li></ul>",
+        "classes": "ank-color-textColor ank-fontSize-1rem ank-fontSize-md-1_04rem ank-fontWeight-300 ank-lineHeight-1_6 ank-maxWidth-56rem"
+      }
+    },
+    {
+      "id": "service3",
       "type": "container",
       "config": {
-        "tag": "div",
-        "classes": "ank-display-flex ank-flexDirection-column ank-gap-12px",
+        "tag": "section",
+        "classes": "ank-display-flex ank-flexDirection-column ank-gap-14px ank-gap-md-18px ank-paddingTop-4px ank-borderTop-1px__solid__textColorOPA__0_14 ank-paddingTop-28px",
         "components": [
-          "interventionMetricsTitle",
-          "interventionMetricsText"
+          "service3Title",
+          "service3Text",
+          "service3Text2",
+          "service3IncludesTitle",
+          "service3Includes"
         ]
       }
     },
     {
-      "id": "interventionMetricsTitle",
+      "id": "service3Title",
       "type": "text",
       "config": {
-        "tag": "h3",
-        "text": "Organización inicial de métricas",
-        "classes": "ank-m-0 ank-color-HASH1C1C1C ank-fontSize-1_18rem ank-fontWeight-700 ank-lineHeight-1_22"
+        "tag": "h2",
+        "text": "Acompañamiento estratégico en redes",
+        "classes": "ank-m-0 ank-color-titleColor ank-fontSize-1_8rem ank-fontSize-md-2_15rem ank-fontWeight-600 ank-lineHeight-1_15"
       }
     },
     {
-      "id": "interventionMetricsText",
+      "id": "service3Text",
       "type": "text",
       "config": {
         "tag": "p",
-        "text": "Selección y orden de indicadores básicos para facilitar una lectura más útil de lo que está ocurriendo.",
-        "classes": "ank-m-0 ank-color-textColor ank-fontSize-1_02rem ank-fontSize-md-1_06rem ank-fontWeight-300 ank-lineHeight-1_4 ank-maxWidth-1180px"
+        "text": "Si quieres sostener una presencia más constante, puedo apoyarte con la planificación, organización y seguimiento de tus redes mes a mes.",
+        "classes": "ank-m-0 ank-color-textColor ank-fontSize-1rem ank-fontSize-md-1_06rem ank-fontWeight-300 ank-lineHeight-1_55 ank-maxWidth-62rem"
       }
     },
     {
-      "id": "interventionConsistency",
+      "id": "service3Text2",
+      "type": "text",
+      "config": {
+        "tag": "p",
+        "text": "Este acompañamiento te ayuda a dejar de improvisar cada semana y a ajustar tu contenido según lo que va funcionando.",
+        "classes": "ank-m-0 ank-color-secondaryTextColor ank-fontSize-1_04rem ank-fontWeight-600 ank-lineHeight-1_48 ank-maxWidth-62rem"
+      }
+    },
+    {
+      "id": "service3IncludesTitle",
+      "type": "text",
+      "config": {
+        "tag": "h3",
+        "text": "Puede incluir:",
+        "classes": "ank-m-0 ank-color-titleColor ank-fontSize-1_12rem ank-fontSize-md-1_2rem ank-fontWeight-700 ank-lineHeight-1_28"
+      }
+    },
+    {
+      "id": "service3Includes",
+      "type": "text",
+      "config": {
+        "html": "<ul><li>Definición de pilares de contenido para tu negocio.</li><li>Calendario de contenido.</li><li>Planeación mensual de contenido.</li><li>Curaduría de publicaciones previa a su publicación.</li><li>Programación y monitoreo de publicaciones.</li><li>Revisión de métricas básicas.</li><li>Ajustes semanales de contenido según resultados.</li><li>Recomendaciones para mejorar claridad, coherencia y continuidad.</li></ul>",
+        "classes": "ank-color-textColor ank-fontSize-1rem ank-fontSize-md-1_04rem ank-fontWeight-300 ank-lineHeight-1_6 ank-maxWidth-56rem"
+      }
+    },
+    {
+      "id": "notIncludedSection",
       "type": "container",
       "config": {
-        "tag": "div",
-        "classes": "ank-display-flex ank-flexDirection-column ank-gap-12px",
+        "tag": "section",
+        "classes": "ank-display-flex ank-flexDirection-column ank-gap-14px ank-gap-md-18px ank-paddingTop-4px ank-borderTop-1px__solid__textColorOPA__0_14 ank-paddingTop-28px",
         "components": [
-          "interventionConsistencyTitle",
-          "interventionConsistencyText"
+          "notIncludedTitle",
+          "notIncludedText",
+          "notIncludedText2"
         ]
       }
     },
     {
-      "id": "interventionConsistencyTitle",
+      "id": "notIncludedTitle",
       "type": "text",
       "config": {
-        "tag": "h3",
-        "text": "Coherencia entre perfiles, enlaces y páginas clave",
-        "classes": "ank-m-0 ank-color-HASH1C1C1C ank-fontSize-1_18rem ank-fontWeight-700 ank-lineHeight-1_22"
+        "tag": "h2",
+        "text": "Qué no incluye esta etapa",
+        "classes": "ank-m-0 ank-color-titleColor ank-fontSize-1_8rem ank-fontSize-md-2_15rem ank-fontWeight-600 ank-lineHeight-1_15"
       }
     },
     {
-      "id": "interventionConsistencyText",
+      "id": "notIncludedText",
       "type": "text",
       "config": {
         "tag": "p",
-        "text": "Observación de la relación entre redes, enlaces de entrada y páginas de destino para detectar desconexiones.",
-        "classes": "ank-m-0 ank-color-textColor ank-fontSize-1_02rem ank-fontSize-md-1_06rem ank-fontWeight-300 ank-lineHeight-1_4 ank-maxWidth-1180px"
+        "text": "Para mantener el trabajo enfocado y estratégico, estos servicios no incluyen producción de foto o video, diseño gráfico de publicaciones, campañas de anuncios pagados ni manejo permanente de mensajes.",
+        "classes": "ank-m-0 ank-color-textColor ank-fontSize-1rem ank-fontSize-md-1_06rem ank-fontWeight-300 ank-lineHeight-1_55 ank-maxWidth-64rem"
+      }
+    },
+    {
+      "id": "notIncludedText2",
+      "type": "text",
+      "config": {
+        "tag": "p",
+        "text": "Si tu proyecto necesita alguno de esos elementos, podemos diseñar un paquete exclusivo para tu negocio.",
+        "classes": "ank-m-0 ank-color-secondaryTextColor ank-fontSize-1_04rem ank-fontWeight-600 ank-lineHeight-1_48 ank-maxWidth-56rem"
       }
     },
     {
@@ -570,7 +342,38 @@
       "type": "container",
       "config": {
         "tag": "section",
-        "classes": "ank-display-flex ank-justifyContent-center ank-paddingTop-6px ank-paddingTop-md-16px ank-color-white",
+        "classes": "ank-display-flex ank-flexDirection-column ank-gap-14px ank-gap-md-18px ank-paddingTop-4px ank-borderTop-1px__solid__textColorOPA__0_14 ank-paddingTop-28px",
+        "components": [
+          "servicesClosingTitle",
+          "servicesClosingText",
+          "servicesClosingLinkRow"
+        ]
+      }
+    },
+    {
+      "id": "servicesClosingTitle",
+      "type": "text",
+      "config": {
+        "tag": "h2",
+        "text": "¿No sabes por dónde empezar?",
+        "classes": "ank-m-0 ank-color-titleColor ank-fontSize-1_8rem ank-fontSize-md-2_15rem ank-fontWeight-600 ank-lineHeight-1_15"
+      }
+    },
+    {
+      "id": "servicesClosingText",
+      "type": "text",
+      "config": {
+        "tag": "p",
+        "text": "Empieza con el diagnóstico gratuito. Revisaré tus redes y te compartiré hasta 3 oportunidades concretas para mejorar la claridad de tu presencia digital.",
+        "classes": "ank-m-0 ank-color-textColor ank-fontSize-1rem ank-fontSize-md-1_06rem ank-fontWeight-300 ank-lineHeight-1_55 ank-maxWidth-58rem"
+      }
+    },
+    {
+      "id": "servicesClosingLinkRow",
+      "type": "container",
+      "config": {
+        "tag": "div",
+        "classes": "ank-display-flex ank-justifyContent-center ank-paddingTop-2px ank-color-white",
         "components": [
           "servicesClosingLink"
         ]
@@ -579,11 +382,17 @@
     {
       "id": "servicesClosingLink",
       "type": "link",
+      "eventInstructions": "trackEvent:whatsapp_click,cta,services-closing,page,servicios,location,closing-section,channel,whatsapp",
       "config": {
         "id": "services-closing-link",
-        "href": "/contact",
-        "text": "Hablemos de tu negocio",
-        "classes": "ank-display-flex ank-alignItems-center ank-justifyContent-center ank-width-335px ank-height-52px ank-bg-accentColor ank-color-white ank-textDecoration-none ank-fontSize-1rem ank-fontWeight-300 ank-lineHeight-1 ank-borderRadius-8px"
+        "href": "https://wa.me/5215572050178?text=Hola%2C%20Pamela.%20Me%20interesa%20pedir%20el%20diagn%C3%B3stico%20gratuito%20de%20mis%20redes.",
+        "text": "Pedir diagnóstico gratuito",
+        "target": "_blank",
+        "rel": "noopener noreferrer",
+        "classes": "ank-display-flex ank-alignItems-center ank-justifyContent-center ank-width-100per ank-width-md-335px ank-minHeight-52px ank-paddingInline-20px ank-paddingBlock-12px ank-bg-accentColor ank-color-bgColor ank-textDecoration-none ank-fontSize-1rem ank-fontWeight-500 ank-lineHeight-1_2 ank-textAlign-center ank-borderRadius-8px",
+        "styles": {
+          "color": "var(--ank-bgColor)"
+        }
       }
     }
   ]

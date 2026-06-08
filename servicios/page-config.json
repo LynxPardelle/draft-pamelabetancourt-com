@@ -2,7 +2,12 @@
   "version": 1,
   "pageId": "servicios",
   "domain": "pamelabetancourt.com",
-  "rootIds": ["skipToMainLink", "siteHeader", "landingPage", "siteFooter"],
+  "rootIds": [
+    "skipToMainLink",
+    "siteHeader",
+    "landingPage",
+    "siteFooter"
+  ],
   "modalRootIds": [],
   "metadata": {
     "status": "draft_experiment",
@@ -10,25 +15,25 @@
     "versionTag": "v0.1.0"
   },
   "seo": {
-    "title": "Pamela Betancourt | Servicios",
-    "description": "Servicios de diagnóstico digital, análisis web, marketing y revisión de puntos de contacto.",
+    "title": "Pamela Betancourt | Servicios de redes",
+    "description": "Diagnóstico gratuito de redes, plan mensual de contenido y acompañamiento estratégico para Instagram y Facebook.",
     "canonical": "https://pamelabetancourt.zoolandingpage.com.mx/servicios",
     "keywords": {
       "es": [
-        "servicios digitales",
-        "diagnostico digital",
-        "analisis web",
-        "marketing digital",
-        "puntos de contacto",
-        "presencia digital"
+        "servicios de redes sociales",
+        "diagnóstico gratuito de redes",
+        "plan mensual de contenido",
+        "Instagram",
+        "Facebook",
+        "acompañamiento estratégico"
       ],
       "en": [
-        "digital services",
-        "digital audit",
-        "web analytics",
-        "digital marketing",
-        "customer touchpoints",
-        "digital presence"
+        "social media services",
+        "free social media audit",
+        "monthly content plan",
+        "Instagram",
+        "Facebook",
+        "strategic support"
       ]
     }
   },
@@ -37,8 +42,8 @@
       {
         "@context": "https://schema.org",
         "@type": "CollectionPage",
-        "name": "Pamela Betancourt | Servicios",
-        "description": "Servicios de diagnóstico digital, análisis web, marketing y revisión de puntos de contacto.",
+        "name": "Pamela Betancourt | Servicios de redes",
+        "description": "Diagnóstico gratuito de redes, plan mensual de contenido y acompañamiento estratégico para Instagram y Facebook.",
         "url": "https://pamelabetancourt.zoolandingpage.com.mx/servicios"
       },
       {

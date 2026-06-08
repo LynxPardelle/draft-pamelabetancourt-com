@@ -24,7 +24,7 @@
     {
       "path": "/acerca-de-mi",
       "pageId": "acerca-de-mi",
-      "label": "Acerca de mi"
+      "label": "Acerca de mí"
     },
     {
       "path": "/contact",
@@ -97,12 +97,12 @@
       "identifier": "pamelabetancourtcom",
       "name": "Pamela Betancourt",
       "version": "1.0.0",
-      "description": "Personal brand multi-page landing site for Pamela Betancourt."
+      "description": "Diagnóstico de Instagram y Facebook, calendario de contenido personalizado y acompañamiento estratégico para redes sociales."
     },
     "seo": {
       "siteName": "Pamela Betancourt",
       "title": "Pamela Betancourt",
-      "description": "Personal brand multi-page landing site for Pamela Betancourt.",
+      "description": "Diagnóstico de Instagram y Facebook, calendario de contenido personalizado y copies listos para negocios que quieren ordenar sus redes sin complicarse.",
       "canonicalOrigin": "https://pamelabetancourt.zoolandingpage.com.mx",
       "defaultImage": "https://assets.zoolandingpage.com.mx/pamelabetancourt.com/acerca-de-mi/images/pamela-betancourt-profile.webp",
       "openGraph": {
@@ -117,19 +117,19 @@
       "keywords": {
         "es": [
           "Pamela Betancourt",
-          "estrategia digital",
-          "presencia digital",
-          "contenido digital",
-          "analisis web",
-          "redes sociales"
+          "diagnóstico de Instagram",
+          "diagnóstico de Facebook",
+          "plan de contenido",
+          "redes sociales",
+          "métricas básicas"
         ],
         "en": [
           "Pamela Betancourt",
-          "digital strategy",
-          "digital presence",
-          "content strategy",
-          "web analytics",
-          "social media"
+          "Instagram audit",
+          "Facebook audit",
+          "content plan",
+          "social media",
+          "basic metrics"
         ]
       },
       "robots": "index,follow,max-image-preview:large"
@@ -157,6 +157,11 @@
         "foreground": "#734332",
         "accent": "#734332",
         "exitDurationMs": 420
+      },
+      "contact": {
+        "whatsappPhone": "+52 1 55 7205 0178",
+        "whatsappMessageKey": "ui.contact.whatsappMessage",
+        "finalCtaMessageKey": "ui.contact.whatsappMessage"
       },
       "modals": {
         "_default": {

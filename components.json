@@ -125,7 +125,7 @@
           },
           {
             "id": "acerca-de-mi",
-            "label": "Acerca de mi",
+            "label": "Acerca de mí",
             "href": "/acerca-de-mi"
           },
           {
@@ -188,7 +188,7 @@
       "config": {
         "id": "nav-about",
         "href": "/acerca-de-mi",
-        "text": "Acerca de mi",
+        "text": "Acerca de mí",
         "classes": "ank-color-inherit ank-fontSize-0_95rem ank-fontWeight-400 ank-textDecoration-none"
       }
     },
@@ -275,7 +275,7 @@
       "type": "text",
       "config": {
         "tag": "p",
-        "text": "Una mirada más conectada sobre redes sociales, sitio web y análisis.",
+        "text": "Redes más claras, contenido con dirección y decisiones basadas en datos reales.",
         "classes": "ank-color-textColor ank-fontSize-0_95rem ank-lineHeight-1_4 ank-maxWidth-420px"
       }
     },
