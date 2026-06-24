@@ -15,20 +15,23 @@
     "versionTag": "v0.1.0"
   },
   "seo": {
-    "title": "Pamela Betancourt | Diagnóstico de redes",
-    "description": "Diagnóstico de Instagram y Facebook, plan de contenido personalizado y acompañamiento estratégico para negocios que quieren ordenar sus redes.",
+    "title": "Pamela Betancourt | Sprint de Redes",
+    "description": "Sprint de Redes de 10 días para ordenar Instagram y Facebook con diagnóstico, calendario de contenido, copies y recomendaciones accionables.",
     "canonical": "https://pamelabetancourt.zoolandingpage.com.mx/home",
     "keywords": {
       "es": [
         "Pamela Betancourt",
+        "Sprint de Redes",
         "diagnóstico de redes",
         "diagnóstico de Instagram",
         "diagnóstico de Facebook",
         "plan de contenido",
+        "community management",
         "métricas básicas"
       ],
       "en": [
         "Pamela Betancourt",
+        "social media sprint",
         "social media audit",
         "Instagram audit",
         "Facebook audit",
@@ -42,8 +45,8 @@
       {
         "@context": "https://schema.org",
         "@type": "WebPage",
-        "name": "Pamela Betancourt | Diagnóstico de redes",
-        "description": "Diagnóstico de Instagram y Facebook, plan de contenido personalizado y acompañamiento estratégico para negocios que quieren ordenar sus redes.",
+        "name": "Pamela Betancourt | Sprint de Redes",
+        "description": "Sprint de Redes de 10 días para ordenar Instagram y Facebook con diagnóstico, calendario de contenido, copies y recomendaciones accionables.",
         "url": "https://pamelabetancourt.zoolandingpage.com.mx/home",
         "about": {
           "@type": "Person",
