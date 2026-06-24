@@ -51,7 +51,7 @@
       "type": "text",
       "config": {
         "tag": "h1",
-        "text": "Redes más claras en 10 días",
+        "text": "Ordena tus redes en 10 días",
         "classes": "ank-m-0 ank-color-titleColor ank-fontSize-2_65rem ank-fontSize-md-4_15rem ank-lineHeight-1 ank-fontWeight-700 ank-maxWidth-980px"
       }
     },
@@ -60,7 +60,7 @@
       "type": "text",
       "config": {
         "tag": "p",
-        "text": "Ordeno tu Instagram y Facebook con una estrategia práctica: reviso lo que ya tienes, detecto oportunidades y convierto tus ideas en contenido listo para publicar.",
+        "text": "Si publicas sin dirección clara, te ayudo a convertir tu Instagram y Facebook en una presencia más estratégica, entendible y lista para atraer mejores oportunidades.",
         "classes": "ank-m-0 ank-color-HASH1C1C1C ank-fontSize-1_08rem ank-fontSize-md-1_35rem ank-fontWeight-700 ank-lineHeight-1_36 ank-maxWidth-1040px"
       }
     },
@@ -69,7 +69,7 @@
       "type": "text",
       "config": {
         "tag": "p",
-        "text": "Empieza con un diagnóstico gratuito o ve directo al Sprint de Redes: un plan de 10 días para dejar de improvisar y comunicar mejor lo que ofrece tu negocio.",
+        "text": "Reviso tu perfil, tu contenido y tus métricas básicas para decirte qué mejorar, qué mantener y qué publicar después.",
         "classes": "ank-m-0 ank-color-textColor ank-fontSize-1rem ank-fontSize-md-1_06rem ank-fontWeight-300 ank-lineHeight-1_55 ank-maxWidth-820px"
       }
     },
@@ -136,7 +136,7 @@
       "type": "text",
       "config": {
         "tag": "h2",
-        "text": "Primero, entendemos qué está pasando",
+        "text": "Primero detectamos qué mejorar",
         "classes": "ank-m-0 ank-color-titleColor ank-fontSize-1_8rem ank-fontSize-md-2_15rem ank-fontWeight-600 ank-lineHeight-1_15"
       }
     },
@@ -145,7 +145,7 @@
       "type": "text",
       "config": {
         "tag": "p",
-        "text": "Antes de proponerte publicar más, reviso cómo están funcionando tus redes hoy: qué tan claro es tu perfil, qué comunica tu contenido y qué señales básicas muestran tus métricas.",
+        "text": "No se trata de publicar por publicar. Miro tu perfil, tus publicaciones recientes y las señales básicas de tu cuenta para entender qué está ayudando y qué está confundiendo.",
         "classes": "ank-m-0 ank-color-textColor ank-fontSize-1rem ank-fontSize-md-1_06rem ank-fontWeight-300 ank-lineHeight-1_55 ank-maxWidth-62rem"
       }
     },
@@ -154,7 +154,7 @@
       "type": "text",
       "config": {
         "tag": "p",
-        "text": "El diagnóstico gratuito te da una mirada externa y hasta 3 oportunidades concretas de mejora. Si quieres avanzar, el Sprint convierte esas oportunidades en contenido y acciones listas para usar.",
+        "text": "Con esa lectura definimos acciones concretas: qué ajustar, qué mantener y qué contenidos pueden ayudarte a comunicar mejor.",
         "classes": "ank-m-0 ank-color-secondaryTextColor ank-fontSize-1_04rem ank-fontWeight-600 ank-lineHeight-1_48 ank-maxWidth-64rem"
       }
     },
@@ -334,7 +334,7 @@
       "type": "text",
       "config": {
         "tag": "p",
-        "text": "Un servicio compacto para negocios que necesitan ordenar sus redes pronto. En 10 días revisamos tu perfil, definimos dirección de contenido y te dejo una guía práctica para publicar con más intención.",
+        "text": "Un paquete concreto para dejar de publicar \"a ver qué sale\". En 10 días te entrego diagnóstico, pilares, calendario inicial, ideas, copies y recomendaciones para avanzar con más seguridad.",
         "classes": "ank-m-0 ank-color-textColor ank-fontSize-1rem ank-fontSize-md-1_06rem ank-fontWeight-300 ank-lineHeight-1_55 ank-maxWidth-66rem"
       }
     },
@@ -1068,7 +1068,7 @@
       "type": "text",
       "config": {
         "tag": "h2",
-        "text": "Demos claridad a tus redes esta semana",
+        "text": "Empieza esta semana con el Sprint de Redes",
         "classes": "ank-m-0 ank-color-titleColor ank-fontSize-1_8rem ank-fontSize-md-2_15rem ank-fontWeight-600 ank-lineHeight-1_15 ank-maxWidth-50rem"
       }
     },
@@ -1077,7 +1077,7 @@
       "type": "text",
       "config": {
         "tag": "p",
-        "text": "Si tus redes se sienten desordenadas o publicas sin dirección clara, puedo ayudarte a convertir lo que ya tienes en un plan más accionable.",
+        "text": "Si tus redes se sienten desordenadas, podemos convertir lo que ya tienes en una ruta clara para publicar con más intención.",
         "classes": "ank-m-0 ank-color-secondaryTextColor ank-fontSize-1_04rem ank-fontWeight-600 ank-lineHeight-1_48 ank-maxWidth-58rem"
       }
     },
@@ -1086,7 +1086,7 @@
       "type": "text",
       "config": {
         "tag": "p",
-        "text": "El Sprint de Redes dura 10 días e incluye diagnóstico, calendario inicial, ideas, copies y recomendaciones basadas en lo que ya está pasando en tu cuenta.",
+        "text": "En 10 días sales con diagnóstico, calendario inicial, ideas, copies y recomendaciones listas para aplicar.",
         "classes": "ank-m-0 ank-color-textColor ank-fontSize-1rem ank-fontSize-md-1_06rem ank-fontWeight-300 ank-lineHeight-1_55 ank-maxWidth-58rem"
       }
     },
