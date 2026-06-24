@@ -47,16 +47,16 @@
       "defaultMode": "light",
       "palettes": {
         "light": {
-          "bgColor": "#f4e7e1",
-          "textColor": "#5b4d47",
-          "titleColor": "#734332",
-          "linkColor": "#734332",
-          "accentColor": "#734332",
-          "secondaryBgColor": "#dfc1b4",
-          "secondaryTextColor": "#433733",
-          "secondaryTitleColor": "#734332",
-          "secondaryLinkColor": "#734332",
-          "secondaryAccentColor": "#734332",
+          "bgColor": "#FFF9F3",
+          "textColor": "#443223",
+          "titleColor": "#44422D",
+          "linkColor": "#72583E",
+          "accentColor": "#72583E",
+          "secondaryBgColor": "#DBC4A5",
+          "secondaryTextColor": "#44422D",
+          "secondaryTitleColor": "#443223",
+          "secondaryLinkColor": "#72583E",
+          "secondaryAccentColor": "#755151",
           "successColor": "#198754",
           "onSuccessColor": "#052e1c",
           "errorColor": "#dc3545",
@@ -67,16 +67,16 @@
           "onInfoColor": "#041b44"
         },
         "dark": {
-          "bgColor": "#1f1917",
-          "textColor": "#efe2db",
-          "titleColor": "#f6d0bf",
-          "linkColor": "#e2a27f",
-          "accentColor": "#cf7f59",
-          "secondaryBgColor": "#2b211e",
-          "secondaryTextColor": "#e8d7cf",
-          "secondaryTitleColor": "#f5c3aa",
-          "secondaryLinkColor": "#e2a27f",
-          "secondaryAccentColor": "#cf7f59",
+          "bgColor": "#2B251D",
+          "textColor": "#FFF9F3",
+          "titleColor": "#DBC4A5",
+          "linkColor": "#DBC4A5",
+          "accentColor": "#A08670",
+          "secondaryBgColor": "#443223",
+          "secondaryTextColor": "#FFF9F3",
+          "secondaryTitleColor": "#DBC4A5",
+          "secondaryLinkColor": "#DBC4A5",
+          "secondaryAccentColor": "#A08670",
           "successColor": "#32d583",
           "onSuccessColor": "#f3fff8",
           "errorColor": "#ff6b6b",
@@ -97,34 +97,47 @@
       "identifier": "pamelabetancourtcom",
       "name": "Pamela Betancourt",
       "version": "1.0.0",
-      "description": "Diagnóstico de Instagram y Facebook, calendario de contenido personalizado y acompañamiento estratégico para redes sociales."
+      "description": "Ordena Instagram y Facebook en 10 días con diagnóstico, calendario inicial, ideas, copies y recomendaciones accionables para publicar con más claridad."
     },
     "seo": {
       "siteName": "Pamela Betancourt",
-      "title": "Pamela Betancourt",
-      "description": "Diagnóstico de Instagram y Facebook, calendario de contenido personalizado y copies listos para negocios que quieren ordenar sus redes sin complicarse.",
+      "title": "Pamela Betancourt | Sprint de Redes",
+      "description": "Ordena Instagram y Facebook en 10 días con diagnóstico, calendario inicial, ideas, copies y recomendaciones accionables para publicar con más claridad.",
       "canonicalOrigin": "https://pamelabetancourt.zoolandingpage.com.mx",
-      "defaultImage": "https://assets.zoolandingpage.com.mx/pamelabetancourt.com/acerca-de-mi/images/pamela-betancourt-profile.webp",
+      "defaultImage": "https://assets.zoolandingpage.com.mx/pamelabetancourt.com/shared/seo-images/sprint-redes-og-card-png.png",
       "openGraph": {
         "type": "website",
         "site_name": "Pamela Betancourt",
-        "image": "https://assets.zoolandingpage.com.mx/pamelabetancourt.com/acerca-de-mi/images/pamela-betancourt-profile.webp"
+        "image": "https://assets.zoolandingpage.com.mx/pamelabetancourt.com/shared/seo-images/sprint-redes-og-card-png.png",
+        "title": "Pamela Betancourt | Sprint de Redes",
+        "description": "Ordena Instagram y Facebook en 10 días con diagnóstico, calendario inicial, ideas, copies y recomendaciones accionables para publicar con más claridad.",
+        "image:type": "image/png",
+        "image:width": "1672",
+        "image:height": "941",
+        "image:alt": "Sprint de Redes de 10 días para ordenar Instagram y Facebook"
       },
       "twitter": {
         "card": "summary_large_image",
-        "image": "https://assets.zoolandingpage.com.mx/pamelabetancourt.com/acerca-de-mi/images/pamela-betancourt-profile.webp"
+        "image": "https://assets.zoolandingpage.com.mx/pamelabetancourt.com/shared/seo-images/sprint-redes-og-card-png.png",
+        "title": "Pamela Betancourt | Sprint de Redes",
+        "description": "Ordena Instagram y Facebook en 10 días con diagnóstico, calendario inicial, ideas, copies y recomendaciones accionables para publicar con más claridad.",
+        "image:alt": "Sprint de Redes de 10 días para ordenar Instagram y Facebook"
       },
       "keywords": {
         "es": [
           "Pamela Betancourt",
+          "Sprint de Redes",
           "diagnóstico de Instagram",
           "diagnóstico de Facebook",
           "plan de contenido",
           "redes sociales",
+          "community management",
+          "marketing digital",
           "métricas básicas"
         ],
         "en": [
           "Pamela Betancourt",
+          "social media sprint",
           "Instagram audit",
           "Facebook audit",
           "content plan",
@@ -140,10 +153,6 @@
         {
           "code": "es",
           "label": "ES"
-        },
-        {
-          "code": "en",
-          "label": "EN"
         }
       ]
     }
@@ -152,10 +161,10 @@
     "ui": {
       "loadingCurtain": {
         "title": "Pamela Betancourt",
-        "subtitle": "Ordenando la estrategia",
-        "background": "#f4e7e1",
-        "foreground": "#734332",
-        "accent": "#734332",
+        "subtitle": "Ordena tus redes en 10 días",
+        "background": "#FFF9F3",
+        "foreground": "#443223",
+        "accent": "#72583E",
         "exitDurationMs": 420
       },
       "contact": {

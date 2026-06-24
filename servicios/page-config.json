@@ -15,26 +15,47 @@
     "versionTag": "v0.1.0"
   },
   "seo": {
-    "title": "Pamela Betancourt | Servicios de redes",
-    "description": "Diagnóstico gratuito de redes, plan mensual de contenido y acompañamiento estratégico para Instagram y Facebook.",
+    "title": "Servicios de redes sociales | Pamela Betancourt",
+    "description": "Diagnóstico gratuito, Sprint de Redes de 10 días, plan mensual de contenido y acompañamiento estratégico para Instagram y Facebook.",
     "canonical": "https://pamelabetancourt.zoolandingpage.com.mx/servicios",
     "keywords": {
       "es": [
         "servicios de redes sociales",
+        "Sprint de Redes",
         "diagnóstico gratuito de redes",
         "plan mensual de contenido",
         "Instagram",
         "Facebook",
-        "acompañamiento estratégico"
+        "acompañamiento estratégico",
+        "community management"
       ],
       "en": [
         "social media services",
+        "social media sprint",
         "free social media audit",
         "monthly content plan",
         "Instagram",
         "Facebook",
-        "strategic support"
+        "strategic support",
+        "community management"
       ]
+    },
+    "openGraph": {
+      "title": "Servicios de redes sociales | Pamela Betancourt",
+      "description": "Diagnóstico gratuito, Sprint de Redes de 10 días, plan mensual de contenido y acompañamiento estratégico para Instagram y Facebook.",
+      "url": "https://pamelabetancourt.zoolandingpage.com.mx/servicios",
+      "image": "https://assets.zoolandingpage.com.mx/pamelabetancourt.com/shared/seo-images/sprint-redes-og-card-png.png",
+      "image:type": "image/png",
+      "image:width": "1672",
+      "image:height": "941",
+      "image:alt": "Sprint de Redes de 10 días para ordenar Instagram y Facebook"
+    },
+    "twitter": {
+      "card": "summary_large_image",
+      "title": "Servicios de redes sociales | Pamela Betancourt",
+      "description": "Diagnóstico gratuito, Sprint de Redes de 10 días, plan mensual de contenido y acompañamiento estratégico para Instagram y Facebook.",
+      "image": "https://assets.zoolandingpage.com.mx/pamelabetancourt.com/shared/seo-images/sprint-redes-og-card-png.png",
+      "image:alt": "Sprint de Redes de 10 días para ordenar Instagram y Facebook"
     }
   },
   "structuredData": {
@@ -42,9 +63,10 @@
       {
         "@context": "https://schema.org",
         "@type": "CollectionPage",
-        "name": "Pamela Betancourt | Servicios de redes",
-        "description": "Diagnóstico gratuito de redes, plan mensual de contenido y acompañamiento estratégico para Instagram y Facebook.",
-        "url": "https://pamelabetancourt.zoolandingpage.com.mx/servicios"
+        "name": "Servicios de redes sociales | Pamela Betancourt",
+        "description": "Diagnóstico gratuito, Sprint de Redes de 10 días, plan mensual de contenido y acompañamiento estratégico para Instagram y Facebook.",
+        "url": "https://pamelabetancourt.zoolandingpage.com.mx/servicios",
+        "image": "https://assets.zoolandingpage.com.mx/pamelabetancourt.com/shared/seo-images/sprint-redes-og-card-png.png"
       },
       {
         "@context": "https://schema.org",

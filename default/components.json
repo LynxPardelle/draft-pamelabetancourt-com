@@ -10,7 +10,8 @@
         "id": "nav-home",
         "href": "/home",
         "text": "Home",
-        "classes": "ank-color-inherit ank-fontSize-0_95rem ank-fontWeight-700 ank-textDecoration-none"
+        "classes": "ank-color-inherit ank-fontSize-0_95rem ank-fontWeight-700 ank-textDecoration-none",
+        "rel": "noopener"
       }
     },
     {
