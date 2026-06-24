@@ -15,8 +15,8 @@
     "versionTag": "v0.1.0"
   },
   "seo": {
-    "title": "Pamela Betancourt | Acerca de mí",
-    "description": "Pamela Betancourt ayuda a negocios a ordenar Instagram y Facebook con estrategia, contenido y métricas básicas.",
+    "title": "Marketing digital y redes sociales | Pamela Betancourt",
+    "description": "Conoce a Pamela Betancourt: marketing digital, gestión de redes sociales, contenido, comunidad y análisis básico para negocios.",
     "canonical": "https://pamelabetancourt.zoolandingpage.com.mx/acerca-de-mi",
     "keywords": {
       "es": [
@@ -35,6 +35,23 @@
         "Facebook",
         "digital marketing"
       ]
+    },
+    "openGraph": {
+      "title": "Marketing digital y redes sociales | Pamela Betancourt",
+      "description": "Conoce a Pamela Betancourt: marketing digital, gestión de redes sociales, contenido, comunidad y análisis básico para negocios.",
+      "url": "https://pamelabetancourt.zoolandingpage.com.mx/acerca-de-mi",
+      "image": "https://assets.zoolandingpage.com.mx/pamelabetancourt.com/shared/seo-images/sprint-redes-og-card-png.png",
+      "image:type": "image/png",
+      "image:width": "1672",
+      "image:height": "941",
+      "image:alt": "Sprint de Redes de 10 días para ordenar Instagram y Facebook"
+    },
+    "twitter": {
+      "card": "summary_large_image",
+      "title": "Marketing digital y redes sociales | Pamela Betancourt",
+      "description": "Conoce a Pamela Betancourt: marketing digital, gestión de redes sociales, contenido, comunidad y análisis básico para negocios.",
+      "image": "https://assets.zoolandingpage.com.mx/pamelabetancourt.com/shared/seo-images/sprint-redes-og-card-png.png",
+      "image:alt": "Sprint de Redes de 10 días para ordenar Instagram y Facebook"
     }
   },
   "structuredData": {
@@ -42,9 +59,10 @@
       {
         "@context": "https://schema.org",
         "@type": "AboutPage",
-        "name": "Pamela Betancourt | Acerca de mí",
-        "description": "Pamela Betancourt ayuda a negocios a ordenar Instagram y Facebook con estrategia, contenido y métricas básicas.",
-        "url": "https://pamelabetancourt.zoolandingpage.com.mx/acerca-de-mi"
+        "name": "Marketing digital y redes sociales | Pamela Betancourt",
+        "description": "Conoce a Pamela Betancourt: marketing digital, gestión de redes sociales, contenido, comunidad y análisis básico para negocios.",
+        "url": "https://pamelabetancourt.zoolandingpage.com.mx/acerca-de-mi",
+        "image": "https://assets.zoolandingpage.com.mx/pamelabetancourt.com/shared/seo-images/sprint-redes-og-card-png.png"
       },
       {
         "@context": "https://schema.org",

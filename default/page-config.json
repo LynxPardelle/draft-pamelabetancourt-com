@@ -35,6 +35,23 @@
         "content plan",
         "basic metrics"
       ]
+    },
+    "openGraph": {
+      "title": "Pamela Betancourt | Diagnóstico de redes",
+      "description": "Diagnóstico de Instagram y Facebook, plan de contenido personalizado y acompañamiento estratégico para negocios que quieren ordenar sus redes.",
+      "url": "https://pamelabetancourt.zoolandingpage.com.mx/home",
+      "image": "https://assets.zoolandingpage.com.mx/pamelabetancourt.com/shared/seo-images/sprint-redes-og-card-png.png",
+      "image:type": "image/png",
+      "image:width": "1672",
+      "image:height": "941",
+      "image:alt": "Sprint de Redes de 10 días para ordenar Instagram y Facebook"
+    },
+    "twitter": {
+      "card": "summary_large_image",
+      "title": "Pamela Betancourt | Diagnóstico de redes",
+      "description": "Diagnóstico de Instagram y Facebook, plan de contenido personalizado y acompañamiento estratégico para negocios que quieren ordenar sus redes.",
+      "image": "https://assets.zoolandingpage.com.mx/pamelabetancourt.com/shared/seo-images/sprint-redes-og-card-png.png",
+      "image:alt": "Sprint de Redes de 10 días para ordenar Instagram y Facebook"
     }
   },
   "structuredData": {
@@ -48,7 +65,8 @@
         "about": {
           "@type": "Person",
           "name": "Pamela Betancourt"
-        }
+        },
+        "image": "https://assets.zoolandingpage.com.mx/pamelabetancourt.com/shared/seo-images/sprint-redes-og-card-png.png"
       },
       {
         "@context": "https://schema.org",
