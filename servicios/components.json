@@ -66,7 +66,7 @@
       "type": "text",
       "config": {
         "tag": "p",
-        "text": "No necesitas resolver toda tu presencia digital de golpe. Podemos empezar por revisar tus redes, detectar qué está frenando la claridad de tu mensaje y convertirlo en un plan de contenido concreto para tu negocio.",
+        "text": "No necesitas resolver toda tu presencia digital de golpe. Podemos empezar con un diagnóstico gratuito, avanzar con un Sprint de Redes de 10 días o construir un plan mensual de contenido.",
         "classes": "ank-m-0 ank-color-HASH4A3028 ank-fontSize-1_24rem ank-fontSize-md-1_38rem ank-fontWeight-700 ank-lineHeight-1_34 ank-maxWidth-1040px"
       }
     },
@@ -75,7 +75,7 @@
       "type": "text",
       "config": {
         "tag": "p",
-        "text": "El objetivo es que sepas qué comunicar, cómo organizarlo y qué ajustar para que tus redes sociales trabajen en pro de tu negocio.",
+        "text": "El objetivo es que sepas qué comunicar, cómo organizarlo y qué ajustar para que tus redes sociales trabajen a favor de tu negocio.",
         "classes": "ank-m-0 ank-color-textColor ank-fontSize-1rem ank-fontSize-md-1_06rem ank-fontWeight-300 ank-lineHeight-1_55 ank-maxWidth-860px"
       }
     },
@@ -87,6 +87,7 @@
         "classes": "ank-display-flex ank-flexDirection-column ank-gap-34px ank-gap-md-44px",
         "components": [
           "service1",
+          "sprintService",
           "service2",
           "service3"
         ]
@@ -180,6 +181,93 @@
       }
     },
     {
+      "id": "sprintService",
+      "type": "container",
+      "config": {
+        "tag": "section",
+        "classes": "ank-display-flex ank-flexDirection-column ank-gap-14px ank-gap-md-18px ank-paddingTop-4px ank-borderTop-1px__solid__textColorOPA__0_14 ank-paddingTop-28px",
+        "components": [
+          "sprintServiceTitle",
+          "sprintServiceText",
+          "sprintServiceText2",
+          "sprintServiceIncludesTitle",
+          "sprintServiceIncludes",
+          "sprintServiceCtaRow"
+        ]
+      }
+    },
+    {
+      "id": "sprintServiceTitle",
+      "type": "text",
+      "config": {
+        "tag": "h2",
+        "text": "Sprint de Redes - 10 días",
+        "classes": "ank-m-0 ank-color-titleColor ank-fontSize-1_8rem ank-fontSize-md-2_15rem ank-fontWeight-600 ank-lineHeight-1_15"
+      }
+    },
+    {
+      "id": "sprintServiceText",
+      "type": "text",
+      "config": {
+        "tag": "p",
+        "text": "Un paquete rápido y accionable para ordenar tu Instagram y/o Facebook sin esperar a tener una estrategia enorme. Revisamos lo que ya existe, definimos dirección y te entrego contenido base para publicar con más intención.",
+        "classes": "ank-m-0 ank-color-textColor ank-fontSize-1rem ank-fontSize-md-1_06rem ank-fontWeight-300 ank-lineHeight-1_55 ank-maxWidth-66rem"
+      }
+    },
+    {
+      "id": "sprintServiceText2",
+      "type": "text",
+      "config": {
+        "tag": "p",
+        "text": "Inversión de lanzamiento: $3,500 MXN. Ideal si necesitas avanzar pronto y quieres una entrega concreta antes de contratar un manejo mensual completo.",
+        "classes": "ank-m-0 ank-color-secondaryTextColor ank-fontSize-1_04rem ank-fontWeight-600 ank-lineHeight-1_48 ank-maxWidth-64rem"
+      }
+    },
+    {
+      "id": "sprintServiceIncludesTitle",
+      "type": "text",
+      "config": {
+        "tag": "h3",
+        "text": "Incluye:",
+        "classes": "ank-m-0 ank-color-titleColor ank-fontSize-1_12rem ank-fontSize-md-1_2rem ank-fontWeight-700 ank-lineHeight-1_28"
+      }
+    },
+    {
+      "id": "sprintServiceIncludes",
+      "type": "text",
+      "config": {
+        "html": "<ul><li>Diagnóstico express de Instagram y/o Facebook.</li><li>Recomendaciones para optimizar bio, enlaces, destacados y llamados a la acción.</li><li>Definición de 3 pilares de contenido para tu negocio.</li><li>Calendario inicial de 10 días.</li><li>Ideas de publicaciones organizadas por objetivo y formato.</li><li>Copies listos para adaptar y publicar.</li><li>Lectura básica de métricas disponibles y recomendaciones de ajuste.</li><li>1 ronda de revisión para afinar el calendario antes de cerrar la entrega.</li></ul>",
+        "classes": "ank-color-textColor ank-fontSize-1rem ank-fontSize-md-1_04rem ank-fontWeight-300 ank-lineHeight-1_6 ank-maxWidth-58rem"
+      }
+    },
+    {
+      "id": "sprintServiceCtaRow",
+      "type": "container",
+      "config": {
+        "tag": "div",
+        "classes": "ank-display-flex ank-justifyContent-center ank-paddingTop-2px ank-color-white",
+        "components": [
+          "sprintServiceCta"
+        ]
+      }
+    },
+    {
+      "id": "sprintServiceCta",
+      "type": "link",
+      "eventInstructions": "trackEvent:whatsapp_click,cta,services-sprint,page,servicios,location,service-sprint,channel,whatsapp",
+      "config": {
+        "id": "service-sprint-cta",
+        "href": "https://wa.me/5215572050178?text=Hola%2C%20Pamela.%20Me%20interesa%20el%20Sprint%20de%20Redes%20de%2010%20d%C3%ADas.%20Quiero%20saber%20si%20es%20adecuado%20para%20mi%20negocio.",
+        "text": "Quiero el Sprint de Redes",
+        "target": "_blank",
+        "rel": "noopener noreferrer",
+        "classes": "ank-display-flex ank-alignItems-center ank-justifyContent-center ank-width-100per ank-width-md-335px ank-minHeight-52px ank-paddingInline-20px ank-paddingBlock-12px ank-bg-accentColor ank-color-bgColor ank-textDecoration-none ank-fontSize-1rem ank-fontWeight-500 ank-lineHeight-1_2 ank-textAlign-center ank-borderRadius-8px",
+        "styles": {
+          "color": "var(--ank-bgColor)"
+        }
+      }
+    },
+    {
       "id": "service2",
       "type": "container",
       "config": {
@@ -208,7 +296,7 @@
       "type": "text",
       "config": {
         "tag": "p",
-        "text": "A partir del diagnóstico, preparo un plan de contenido para un mes, alineado a tu negocio, tus objetivos y tu forma de comunicar.",
+        "text": "Para trabajar con más profundidad, preparo un plan de contenido para un mes, alineado a tu negocio, tus objetivos y tu forma de comunicar.",
         "classes": "ank-m-0 ank-color-textColor ank-fontSize-1rem ank-fontSize-md-1_06rem ank-fontWeight-300 ank-lineHeight-1_55 ank-maxWidth-62rem"
       }
     },
@@ -324,7 +412,7 @@
       "type": "text",
       "config": {
         "tag": "p",
-        "text": "Para mantener el trabajo enfocado y estratégico, estos servicios no incluyen producción de foto o video, diseño gráfico de publicaciones, campañas de anuncios pagados ni manejo permanente de mensajes.",
+        "text": "Para mantener el trabajo enfocado y estratégico, estos servicios no incluyen producción de foto o video, diseño gráfico avanzado de publicaciones, campañas de anuncios pagados ni manejo permanente de mensajes.",
         "classes": "ank-m-0 ank-color-textColor ank-fontSize-1rem ank-fontSize-md-1_06rem ank-fontWeight-300 ank-lineHeight-1_55 ank-maxWidth-64rem"
       }
     },
@@ -355,7 +443,7 @@
       "type": "text",
       "config": {
         "tag": "h2",
-        "text": "¿No sabes por dónde empezar?",
+        "text": "El camino más rápido es empezar con el Sprint",
         "classes": "ank-m-0 ank-color-titleColor ank-fontSize-1_8rem ank-fontSize-md-2_15rem ank-fontWeight-600 ank-lineHeight-1_15"
       }
     },
@@ -364,8 +452,8 @@
       "type": "text",
       "config": {
         "tag": "p",
-        "text": "Empieza con el diagnóstico gratuito. Revisaré tus redes y te compartiré hasta 3 oportunidades concretas para mejorar la claridad de tu presencia digital.",
-        "classes": "ank-m-0 ank-color-textColor ank-fontSize-1rem ank-fontSize-md-1_06rem ank-fontWeight-300 ank-lineHeight-1_55 ank-maxWidth-58rem"
+        "text": "Si ya sabes que necesitas ordenar tus redes pronto, el Sprint de Redes de 10 días te da una entrega clara: diagnóstico, pilares, calendario inicial, ideas, copies y recomendaciones accionables.",
+        "classes": "ank-m-0 ank-color-textColor ank-fontSize-1rem ank-fontSize-md-1_06rem ank-fontWeight-300 ank-lineHeight-1_55 ank-maxWidth-64rem"
       }
     },
     {
@@ -385,8 +473,8 @@
       "eventInstructions": "trackEvent:whatsapp_click,cta,services-closing,page,servicios,location,closing-section,channel,whatsapp",
       "config": {
         "id": "services-closing-link",
-        "href": "https://wa.me/5215572050178?text=Hola%2C%20Pamela.%20Me%20interesa%20pedir%20el%20diagn%C3%B3stico%20gratuito%20de%20mis%20redes.",
-        "text": "Pedir diagnóstico gratuito",
+        "href": "https://wa.me/5215572050178?text=Hola%2C%20Pamela.%20Me%20interesa%20el%20Sprint%20de%20Redes%20de%2010%20d%C3%ADas.%20Quiero%20saber%20si%20es%20adecuado%20para%20mi%20negocio.",
+        "text": "Preguntar por el Sprint",
         "target": "_blank",
         "rel": "noopener noreferrer",
         "classes": "ank-display-flex ank-alignItems-center ank-justifyContent-center ank-width-100per ank-width-md-335px ank-minHeight-52px ank-paddingInline-20px ank-paddingBlock-12px ank-bg-accentColor ank-color-bgColor ank-textDecoration-none ank-fontSize-1rem ank-fontWeight-500 ank-lineHeight-1_2 ank-textAlign-center ank-borderRadius-8px",
