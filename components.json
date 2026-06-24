@@ -314,7 +314,7 @@
         "components": [
           "footerLinkedInMedia"
         ],
-        "classes": "ank-display-flex ank-alignItems-center ank-justifyContent-center ank-textDecoration-none ank-width-32px ank-height-32px ank-bg-HASH5F6368 ank-borderRadius-50per"
+        "classes": "ank-display-flex ank-alignItems-center ank-justifyContent-center ank-textDecoration-none ank-width-32px ank-height-32px ank-bg-HASH72583E ank-borderRadius-50per"
       }
     },
     {
@@ -346,7 +346,7 @@
         "components": [
           "footerCredentialMedia"
         ],
-        "classes": "ank-display-flex ank-alignItems-center ank-justifyContent-center ank-textDecoration-none ank-width-32px ank-height-32px ank-bg-HASH5F6368 ank-borderRadius-50per"
+        "classes": "ank-display-flex ank-alignItems-center ank-justifyContent-center ank-textDecoration-none ank-width-32px ank-height-32px ank-bg-HASH72583E ank-borderRadius-50per"
       }
     },
     {
