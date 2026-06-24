@@ -97,22 +97,31 @@
       "identifier": "pamelabetancourtcom",
       "name": "Pamela Betancourt",
       "version": "1.0.0",
-      "description": "Sprint de Redes de 10 días, diagnóstico de Instagram y Facebook, calendario de contenido y acompañamiento estratégico para negocios que quieren ordenar sus redes."
+      "description": "Ordena Instagram y Facebook en 10 días con diagnóstico, calendario inicial, ideas, copies y recomendaciones accionables para publicar con más claridad."
     },
     "seo": {
       "siteName": "Pamela Betancourt",
-      "title": "Pamela Betancourt",
-      "description": "Sprint de Redes de 10 días, diagnóstico de Instagram y Facebook, calendario de contenido y copies para negocios que quieren publicar con más claridad.",
+      "title": "Pamela Betancourt | Sprint de Redes",
+      "description": "Ordena Instagram y Facebook en 10 días con diagnóstico, calendario inicial, ideas, copies y recomendaciones accionables para publicar con más claridad.",
       "canonicalOrigin": "https://pamelabetancourt.zoolandingpage.com.mx",
-      "defaultImage": "https://assets.zoolandingpage.com.mx/pamelabetancourt.com/acerca-de-mi/images/pamela-betancourt-profile.webp",
+      "defaultImage": "https://assets.zoolandingpage.com.mx/pamelabetancourt.com/shared/seo-images/sprint-redes-og-card-png.png",
       "openGraph": {
         "type": "website",
         "site_name": "Pamela Betancourt",
-        "image": "https://assets.zoolandingpage.com.mx/pamelabetancourt.com/acerca-de-mi/images/pamela-betancourt-profile.webp"
+        "image": "https://assets.zoolandingpage.com.mx/pamelabetancourt.com/shared/seo-images/sprint-redes-og-card-png.png",
+        "title": "Pamela Betancourt | Sprint de Redes",
+        "description": "Ordena Instagram y Facebook en 10 días con diagnóstico, calendario inicial, ideas, copies y recomendaciones accionables para publicar con más claridad.",
+        "image:type": "image/png",
+        "image:width": "1672",
+        "image:height": "941",
+        "image:alt": "Sprint de Redes de 10 días para ordenar Instagram y Facebook"
       },
       "twitter": {
         "card": "summary_large_image",
-        "image": "https://assets.zoolandingpage.com.mx/pamelabetancourt.com/acerca-de-mi/images/pamela-betancourt-profile.webp"
+        "image": "https://assets.zoolandingpage.com.mx/pamelabetancourt.com/shared/seo-images/sprint-redes-og-card-png.png",
+        "title": "Pamela Betancourt | Sprint de Redes",
+        "description": "Ordena Instagram y Facebook en 10 días con diagnóstico, calendario inicial, ideas, copies y recomendaciones accionables para publicar con más claridad.",
+        "image:alt": "Sprint de Redes de 10 días para ordenar Instagram y Facebook"
       },
       "keywords": {
         "es": [

@@ -10,7 +10,8 @@
         "id": "nav-services",
         "href": "/servicios",
         "text": "Servicios",
-        "classes": "ank-color-inherit ank-fontSize-0_95rem ank-fontWeight-700 ank-textDecoration-none"
+        "classes": "ank-color-inherit ank-fontSize-0_95rem ank-fontWeight-700 ank-textDecoration-none",
+        "rel": "noopener"
       }
     },
     {

@@ -15,7 +15,7 @@
     "versionTag": "v0.1.0"
   },
   "seo": {
-    "title": "Pamela Betancourt | Contacto",
+    "title": "Contacto | Pamela Betancourt",
     "description": "Escríbeme para pedir un diagnóstico gratuito o preguntar por el Sprint de Redes de 10 días para Instagram y Facebook.",
     "canonical": "https://pamelabetancourt.zoolandingpage.com.mx/contact",
     "keywords": {
@@ -37,6 +37,23 @@
         "social media",
         "content plan"
       ]
+    },
+    "openGraph": {
+      "title": "Contacto | Pamela Betancourt",
+      "description": "Escríbeme para pedir un diagnóstico gratuito o preguntar por el Sprint de Redes de 10 días para Instagram y Facebook.",
+      "url": "https://pamelabetancourt.zoolandingpage.com.mx/contact",
+      "image": "https://assets.zoolandingpage.com.mx/pamelabetancourt.com/shared/seo-images/sprint-redes-og-card-png.png",
+      "image:type": "image/png",
+      "image:width": "1672",
+      "image:height": "941",
+      "image:alt": "Sprint de Redes de 10 días para ordenar Instagram y Facebook"
+    },
+    "twitter": {
+      "card": "summary_large_image",
+      "title": "Contacto | Pamela Betancourt",
+      "description": "Escríbeme para pedir un diagnóstico gratuito o preguntar por el Sprint de Redes de 10 días para Instagram y Facebook.",
+      "image": "https://assets.zoolandingpage.com.mx/pamelabetancourt.com/shared/seo-images/sprint-redes-og-card-png.png",
+      "image:alt": "Sprint de Redes de 10 días para ordenar Instagram y Facebook"
     }
   },
   "structuredData": {
@@ -44,9 +61,10 @@
       {
         "@context": "https://schema.org",
         "@type": "ContactPage",
-        "name": "Pamela Betancourt | Contacto",
+        "name": "Contacto | Pamela Betancourt",
         "description": "Escríbeme para pedir un diagnóstico gratuito o preguntar por el Sprint de Redes de 10 días para Instagram y Facebook.",
-        "url": "https://pamelabetancourt.zoolandingpage.com.mx/contact"
+        "url": "https://pamelabetancourt.zoolandingpage.com.mx/contact",
+        "image": "https://assets.zoolandingpage.com.mx/pamelabetancourt.com/shared/seo-images/sprint-redes-og-card-png.png"
       },
       {
         "@context": "https://schema.org",

@@ -10,7 +10,8 @@
         "id": "skip-to-main",
         "href": "#landing-main",
         "text": "Skip to main content",
-        "classes": "ank-display-none ank-position-absolute ank-left-16px ank-top-16px ank-zIndex-10 ank-paddingInline-12px ank-paddingBlock-8px ank-bg-secondaryBgColor ank-color-titleColor ank-textDecoration-none"
+        "classes": "ank-display-none ank-position-absolute ank-left-16px ank-top-16px ank-zIndex-10 ank-paddingInline-12px ank-paddingBlock-8px ank-bg-secondaryBgColor ank-color-titleColor ank-textDecoration-none",
+        "rel": "noopener"
       }
     },
     {
@@ -68,7 +69,8 @@
         "id": "brand-link",
         "href": "/home",
         "text": "pamelabetancourt",
-        "classes": "ank-color-inherit ank-fontSize-1_65rem ank-fontWeight-400 ank-textDecoration-none ank-flexShrink-0"
+        "classes": "ank-color-inherit ank-fontSize-1_65rem ank-fontWeight-400 ank-textDecoration-none ank-flexShrink-0",
+        "rel": "noopener"
       }
     },
     {
@@ -169,7 +171,8 @@
         "id": "nav-home",
         "href": "/home",
         "text": "Home",
-        "classes": "ank-color-inherit ank-fontSize-0_95rem ank-fontWeight-400 ank-textDecoration-none"
+        "classes": "ank-color-inherit ank-fontSize-0_95rem ank-fontWeight-400 ank-textDecoration-none",
+        "rel": "noopener"
       }
     },
     {
@@ -179,7 +182,8 @@
         "id": "nav-services",
         "href": "/servicios",
         "text": "Servicios",
-        "classes": "ank-color-inherit ank-fontSize-0_95rem ank-fontWeight-400 ank-textDecoration-none"
+        "classes": "ank-color-inherit ank-fontSize-0_95rem ank-fontWeight-400 ank-textDecoration-none",
+        "rel": "noopener"
       }
     },
     {
@@ -189,7 +193,8 @@
         "id": "nav-about",
         "href": "/acerca-de-mi",
         "text": "Acerca de mí",
-        "classes": "ank-color-inherit ank-fontSize-0_95rem ank-fontWeight-400 ank-textDecoration-none"
+        "classes": "ank-color-inherit ank-fontSize-0_95rem ank-fontWeight-400 ank-textDecoration-none",
+        "rel": "noopener"
       }
     },
     {
@@ -199,7 +204,8 @@
         "id": "nav-contact",
         "href": "/contact",
         "text": "Contáctame",
-        "classes": "ank-color-inherit ank-fontSize-0_95rem ank-fontWeight-400 ank-textDecoration-none"
+        "classes": "ank-color-inherit ank-fontSize-0_95rem ank-fontWeight-400 ank-textDecoration-none",
+        "rel": "noopener"
       }
     },
     {
