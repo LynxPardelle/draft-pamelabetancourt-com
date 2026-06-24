@@ -159,7 +159,7 @@
       "config": {
         "iconName": "menu",
         "ariaLabel": "Abrir navegación principal",
-        "classes": "ank-color-inherit ank-fontSize-1_9rem"
+        "classes": "ank-color-inherit ank-fontSize-1_9rem ank-width-24px ank-height-24px ank-display-block"
       }
     },
     {
@@ -266,7 +266,7 @@
       "type": "text",
       "config": {
         "tag": "strong",
-        "text": "Pamela Betancourt | Analista digital",
+        "text": "Pamela Betancourt | Marketing digital y redes sociales",
         "classes": "ank-color-titleColor ank-fontSize-0_95rem ank-fontWeight-700"
       }
     },
@@ -275,7 +275,7 @@
       "type": "text",
       "config": {
         "tag": "p",
-        "text": "Redes más claras, contenido con dirección y decisiones basadas en datos reales.",
+        "text": "Contenido con dirección, comunidad mejor cuidada y decisiones apoyadas en métricas simples.",
         "classes": "ank-color-textColor ank-fontSize-0_95rem ank-lineHeight-1_4 ank-maxWidth-420px"
       }
     },
