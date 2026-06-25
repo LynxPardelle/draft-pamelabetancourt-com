@@ -24,6 +24,8 @@ Sources checked for these instructions:
 
 Do not require Pamela to have write access to `zoolandingpage`. She only needs to clone the public app repo locally so the Angular app can serve this draft from `drafts/pamelabetancourt.com`.
 
+For shared workflows, including asset uploads, upload grants, local preview, validation, and publication, use the public `zoolandingpage` hub documentation instead of duplicating procedures in this draft. The canonical asset guide is `zoolandingpage/docs/12-public-assets-and-file-uploads.md`.
+
 ## First Local Setup
 
 Install Git and Node.js first. The draft deploy workflows use `actions/setup-node@v5` with `node-version: '22'`, so Node 22 is the safest local default for this repo family.
@@ -88,6 +90,16 @@ Current positioning to preserve:
 - Pamela's site is centered on a free Instagram/Facebook strategic diagnosis.
 - Primary CTAs can use Pamela's intentionally client-facing WhatsApp flow.
 - The `/contact` route and Google Form remain available as a secondary path.
+
+## Public Assets
+
+Pamela and any agent helping her should use the hub repo tool for image uploads:
+
+```powershell
+node tools/upload-draft-asset.mjs --domain=pamelabetancourt.com --page=shared --kind=images --id=hero-principal --file="C:\path\image.webp" --grant-file=".zlp\upload-grants\pamelabetancourt-com.token"
+```
+
+The tool returns a stable `publicUrl` from `https://assets.zoolandingpage.com.mx/...`; use that URL in draft JSON. Do not commit the temporary upload grant, `.env*`, `.zlp/`, generated token files, or presigned `uploadUrl` values. If Pamela needs a grant, she should ask Alec or an authorized Zoolanding developer for a temporary upload grant for `pamelabetancourt.com`.
 
 ## Local Validation
 
@@ -166,7 +178,7 @@ Resolve every blocking finding. Review findings such as public phone/WhatsApp/co
 ## Security Rules
 
 - Treat this repo as public.
-- Do not commit secrets, tokens, API keys, signed URLs, `.env*`, local logs, PDFs/CVs, private keys, certificates, local databases, credential JSON, local agent state, `.codex/`, `.agents/`, `ai_notes/`, `findings/`, `errors-reports/`, `devonly/`, `logs/`, `reports/`, or `Output/`.
+- Do not commit secrets, tokens, upload grants, API keys, signed URLs, `.env*`, `.zlp/`, generated token files, local logs, PDFs/CVs, private keys, certificates, local databases, credential JSON, local agent state, `.codex/`, `.agents/`, `ai_notes/`, `findings/`, `errors-reports/`, `devonly/`, `logs/`, `reports/`, or `Output/`.
 - Public contact details in draft content are allowed only when they are intentionally client-facing.
 - Personal source files, CVs, private photos, identity documents, raw research, and private business notes stay local-only.
 - Deployment uses GitHub OIDC to assume AWS IAM roles split by repo and environment. Do not add long-lived AWS access keys.
