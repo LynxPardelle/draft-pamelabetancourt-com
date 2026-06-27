@@ -236,7 +236,7 @@
       "type": "container",
       "config": {
         "tag": "div",
-        "classes": "ank-width-100per ank-maxWidth-1180px ank-display-flex ank-flexDirection-column ank-gap-14px ank-borderTop-1px__solid__textColorOPA__0_16 ank-paddingTop-28px ank-paddingTop-md-24px ank-flexDirection-md-row ank-justifyContent-spaceMINbetween ank-alignItems-md-flexStart",
+        "classes": "ank-width-100per ank-maxWidth-1180px ank-display-flex ank-flexDirection-column ank-gap-24px ank-gap-md-32px ank-borderTop-1px__solid__textColorOPA__0_16 ank-paddingTop-28px ank-paddingTop-md-28px ank-flexDirection-md-row ank-justifyContent-spaceMINbetween ank-alignItems-md-flexStart",
         "components": [
           "footerCopyGroup",
           "footerSocialRail"
@@ -248,9 +248,10 @@
       "type": "container",
       "config": {
         "tag": "div",
-        "classes": "ank-display-flex ank-flexDirection-column ank-gap-8px ank-maxWidth-34rem",
+        "classes": "ank-display-flex ank-flexDirection-column ank-gap-6px ank-gap-md-8px ank-maxWidth-42rem",
         "components": [
           "footerBrand",
+          "footerSpecialty",
           "footerTagline",
           "footerCopyright"
         ]
@@ -261,8 +262,9 @@
       "type": "container",
       "config": {
         "tag": "div",
-        "classes": "ank-display-flex ank-justifyContent-flexStart ank-paddingTop-12px ank-paddingTop-md-18px ank-marginInlineStart-md-auto",
+        "classes": "ank-display-flex ank-flexDirection-column ank-gap-8px ank-alignItems-start ank-alignItems-md-flexEnd ank-paddingTop-2px ank-marginInlineStart-md-auto",
         "components": [
+          "footerSocialLabel",
           "footerSocial"
         ]
       }
@@ -272,8 +274,17 @@
       "type": "text",
       "config": {
         "tag": "strong",
-        "text": "Pamela Betancourt | Marketing digital y redes sociales",
-        "classes": "ank-color-titleColor ank-fontSize-0_95rem ank-fontWeight-700"
+        "text": "Pamela Betancourt",
+        "classes": "ank-color-titleColor ank-fontSize-1rem ank-fontSize-md-1_08rem ank-fontWeight-700 ank-lineHeight-1_25"
+      }
+    },
+    {
+      "id": "footerSpecialty",
+      "type": "text",
+      "config": {
+        "tag": "p",
+        "text": "Marketing digital y community management",
+        "classes": "ank-m-0 ank-color-secondaryTextColor ank-fontSize-0_9rem ank-fontWeight-700 ank-lineHeight-1_35"
       }
     },
     {
@@ -281,8 +292,8 @@
       "type": "text",
       "config": {
         "tag": "p",
-        "text": "Contenido con dirección, comunidad mejor cuidada y decisiones apoyadas en métricas simples.",
-        "classes": "ank-color-textColor ank-fontSize-0_95rem ank-lineHeight-1_4 ank-maxWidth-420px"
+        "text": "Redes más claras: contenido, comunidad y métricas simples para publicar con dirección.",
+        "classes": "ank-m-0 ank-color-textColor ank-fontSize-0_92rem ank-fontWeight-300 ank-lineHeight-1_45 ank-maxWidth-520px"
       }
     },
     {
@@ -290,8 +301,17 @@
       "type": "text",
       "config": {
         "tag": "small",
-        "text": "© 2026",
-        "classes": "ank-color-textColor ank-fontSize-0_85rem"
+        "text": "© 2026 Pamela Betancourt",
+        "classes": "ank-color-textColor ank-fontSize-0_82rem ank-fontWeight-300 ank-paddingTop-8px"
+      }
+    },
+    {
+      "id": "footerSocialLabel",
+      "type": "text",
+      "config": {
+        "tag": "p",
+        "text": "Conecta conmigo",
+        "classes": "ank-m-0 ank-color-secondaryTextColor ank-fontSize-0_86rem ank-fontWeight-700 ank-lineHeight-1_3"
       }
     },
     {
@@ -299,7 +319,7 @@
       "type": "container",
       "config": {
         "tag": "div",
-        "classes": "ank-display-flex ank-flexDirection-column ank-gap-12px ank-alignItems-start ank-alignItems-md-flexEnd",
+        "classes": "ank-display-flex ank-flexDirection-row ank-gap-10px ank-alignItems-center ank-justifyContent-flexStart ank-justifyContent-md-flexEnd",
         "components": [
           "footerLinkedInLink",
           "footerCredentialLink"
@@ -320,7 +340,7 @@
         "components": [
           "footerLinkedInMedia"
         ],
-        "classes": "ank-display-flex ank-alignItems-center ank-justifyContent-center ank-textDecoration-none ank-width-32px ank-height-32px ank-bg-HASH72583E ank-borderRadius-50per"
+        "classes": "ank-display-flex ank-alignItems-center ank-justifyContent-center ank-textDecoration-none ank-width-36px ank-height-36px ank-bg-HASH72583E ank-borderRadius-50per"
       }
     },
     {
@@ -345,14 +365,14 @@
         "id": "footer-credential",
         "href": "https://www.credential.net/profile/pamelabetancourt/wallet",
         "text": "",
-        "title": "Credencial",
-        "ariaLabel": "Abrir credencial de Pamela Betancourt",
+        "title": "Credenciales",
+        "ariaLabel": "Abrir credenciales de Pamela Betancourt",
         "target": "_blank",
         "rel": "noopener noreferrer",
         "components": [
           "footerCredentialMedia"
         ],
-        "classes": "ank-display-flex ank-alignItems-center ank-justifyContent-center ank-textDecoration-none ank-width-32px ank-height-32px ank-bg-HASH72583E ank-borderRadius-50per"
+        "classes": "ank-display-flex ank-alignItems-center ank-justifyContent-center ank-textDecoration-none ank-width-36px ank-height-36px ank-bg-HASH72583E ank-borderRadius-50per"
       }
     },
     {
