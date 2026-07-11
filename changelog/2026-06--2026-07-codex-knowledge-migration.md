@@ -5,14 +5,14 @@ This entry preserves relevant evidence removed from the former 195-line `Codex.m
 ## Baseline
 
 - `AGENTS.md` and `changelog/` did not exist.
-- `README.md` was 640 bytes and 7 lines.
-- `Codex.md` was 9,290 bytes and 195 lines; README plus Codex totaled 9,930 bytes.
+- `README.md` was 633 bytes and 7 lines.
+- `Codex.md` was 9,095 bytes and 195 lines; README plus Codex totaled 9,728 bytes.
 - Forty-two JSON files and three workflows defined the draft and release behavior.
 
 ## Pilot result
 
-- `Codex.md` is 1,101 bytes, an 88.1% reduction.
-- The default `AGENTS.md` plus README path is 7,294 bytes, 26.5% smaller than the previous README plus Codex path.
+- `Codex.md` is 1,101 bytes, an 87.9% reduction.
+- The default path is 7,294 bytes (`AGENTS.md` at 4,246 plus README at 3,048), 25.0% smaller than the previous README plus Codex path.
 
 ## Migrated evidence
 
