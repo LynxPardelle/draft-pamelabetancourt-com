@@ -5,6 +5,7 @@ import test from 'node:test';
 import { fileURLToPath } from 'node:url';
 
 import { collectJsonFiles } from './deploy-draft.mjs';
+import { isLocalOnlyDraftDirectoryName } from './lib/server-descriptor-kinds.mjs';
 
 const repoRoot = fileURLToPath(new URL('..', import.meta.url));
 
@@ -19,12 +20,12 @@ test('pull request refs enter Bash through environment variables', async () => {
   assert.doesNotMatch(workflow, /head="\$\{\{/);
 });
 
-test('deploy package collects every tracked JSON file', async () => {
+test('deploy package excludes local config while collecting tracked draft JSON', async () => {
   const files = await collectJsonFiles(repoRoot, 'pamelabetancourt.com');
   const tracked = execFileSync('git', ['ls-files', '*.json'], { cwd: repoRoot, encoding: 'utf8' })
     .trim()
     .split(/\r?\n/)
-    .filter(Boolean);
+    .filter(file => file && file !== 'draft-repo.config.json' && !isLocalOnlyDraftDirectoryName(file.split('/')[0]));
 
   assert.equal(files.length, tracked.length);
   assert.ok(files.every(file => file.path.startsWith('pamelabetancourt.com/')));
